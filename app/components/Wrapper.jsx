@@ -3,7 +3,7 @@ import Link from "next/link";
 const Wrapper = () => {
   return (
     <div className="px-5">
-      <div className=" border-x border-[#222222] border-b h-screen flex items-center justify-center w-full 2xl:h-[766px] 2xl:w-[70%] 2xl:mx-auto">
+      <div className=" border-x border-[#222222] border-b h-screen flex items-center justify-center w-full 2xl:h-[766px] 2xl:w-[70%] 2xl:mx-auto ">
         {/* text left */}
         <div className="mx-10 w-1/2 space-y-10">
           <h1 className="text-[76px] font-bold leading-[80px]">
