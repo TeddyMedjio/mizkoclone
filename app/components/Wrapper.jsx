@@ -10,9 +10,9 @@ const Wrapper = () => {
             UX/UI designer & Educator in Sydney
           </h1>
           <p className=" font-medium text-lg text-grey leading-[26px]">
-            I`&apos;m a freelance UX Designer, Founder, Educator & Investor with
+            I&apos;m a freelance UX Designer, Founder, Educator & Investor with
             a 14 <br />
-            year track record in the high-growth startup space. I`&apos;ve led
+            year track record in the high-growth startup space. I&apos;ve led
             strategy <br />
             and design for 50+ high-growth startups; with a total $350M raised{" "}
             <br />
