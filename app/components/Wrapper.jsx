@@ -11,9 +11,9 @@ const Wrapper = () => {
             Freelance Designer & Frontend dev
           </h1>
           <p className=" font-normal text-base md:text-lg text-grey leading-[26px] line-clamp-3 md:line-clamp-none">
-            A complete website from concept to implementation, that's what makes
-            me stand out. My great sense for design and my development skills
-            enable me to create kick-ass projects.
+            A complete website from concept to implementation, that&apos;s what
+            makes me stand out. My great sense for design and my development
+            skills enable me to create kick-ass projects.
           </p>
           <div className="flex flex-col items-center space-y-5 md:space-y-0 md:justify-start justify-center md:flex-row md:space-x-5 ">
             <Link
