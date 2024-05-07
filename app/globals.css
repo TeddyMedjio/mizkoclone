@@ -34,7 +34,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  animation: scroll 60s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 @keyframes scroll {

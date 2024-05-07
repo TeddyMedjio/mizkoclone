@@ -4,12 +4,13 @@ const About = () => {
   return (
     <div className="px-0 md:px-5">
       <div className=" pb-30 border-x border-[#222222] border-b 2xl:w-[70%] 2xl:mx-auto ">
-        <div className="relative h-[300px] lg:h-[920px]">
+        <div className="relative h-[300px] lg:h-[820px]">
           <Image
+            quality={100}
             fill={true}
             src="/background.jpg"
             alt="image of office"
-            className=" object-cover absolute top-0"
+            className=" object-cover absolute"
           />
         </div>
 
