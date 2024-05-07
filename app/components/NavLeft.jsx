@@ -13,7 +13,8 @@ const NavLeft = () => {
             <Image src="/logo.svg" height={24} width={24} alt="logo" />
           </Link>
           <Link
-            href="/"
+            href="https://scarfacedigitalagency.vercel.app/"
+            target="blank"
             className="px-[11px] py-[13px] rounded border border-[#222222] hover:bg-Lightgrey transition-all duration-300"
           >
             <Image src="/logocolor.svg" height={24} width={24} alt="logo" />
@@ -25,22 +26,25 @@ const NavLeft = () => {
 
         <div className="grid gap-2">
           <Link
-            href="/"
+            href="https://www.instagram.com/nganme_jean/"
+            target="blank"
             className="p-3 rounded border border-[#222222] hover:bg-Lightgrey"
           >
             <Image src="/instagram.svg" height={24} width={24} alt="logo" />
           </Link>
           <Link
-            href="/"
+            href="https://www.behance.net/njean"
+            target="blank"
             className="p-3 rounded border border-[#222222] hover:bg-Lightgrey"
           >
-            <Image src="/youtube.svg" height={24} width={24} alt="logo" />
+            <Image src="/behance.svg" height={24} width={24} alt="logo" />
           </Link>
           <Link
-            href="/"
+            href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
+            target="blank"
             className="p-3 rounded border border-[#222222] hover:bg-Lightgrey"
           >
-            <Image src="/linkeding.svg" height={24} width={24} alt="logo" />
+            <Image src="/linkedin.svg" height={24} width={24} alt="logo" />
           </Link>
         </div>
       </div>
