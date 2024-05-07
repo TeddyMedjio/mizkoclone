@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Wrapper = () => {
@@ -34,14 +35,17 @@ const Wrapper = () => {
         </div>
 
         <div className=" my-20 lg:my-0 relative h-[300px] lg:h-full lg:w-1/2">
-          <span className=" absolute bg-black opacity-50 h-full w-full"></span>
+          <div className="hidden lg:block absolute z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <Image src="logo.svg" height={220} width={220} alt="logo" />
+          </div>
+          <span className=" absolute bg-black opacity-50 h-full w-full "></span>
           <video
             className=" object-cover h-full w-full overflow-hidden "
             autoPlay
             loop
             muted
             playsInline
-            poster="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704543131/kw5fgucy2z2bm2l3kbxw.jpg"
+            poster="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715074951/slw8hnlb0tidpevi8tra.jpg"
           >
             <source
               src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1704540192/yd6i93dbyzr7epgi3yeo.mp4"

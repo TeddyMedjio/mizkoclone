@@ -3,36 +3,36 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata = {
-  title: "UX/UI Designer & Educator in Sydney, Australia",
+  title: "UX/UI designer & Frontend dev in Cameroon",
   description:
-    "Hello there, I'm Mizko! I went from designer → agency owner → now founder and educator at Designership. I teach the skills and tricks that helped me build a multi-million dollar design agency, serving 50+ companies and impacting millions worldwide!",
+    "Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <meta
-        content="UX/UI Designer &amp; Educator in Sydney, Australia"
+        content="UX/UI designer & Frontend dev in Cameroon"
         property="og:title"
       />
       <meta
-        content="Hello there, I'm Mizko! I went from designer → agency owner → now founder and educator at Designership. I teach the skills and tricks that helped me build a multi-million dollar design agency, serving 50+ companies and impacting millions worldwide!"
+        content="Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential."
         name="description"
       />
       <meta
-        content="https://assets-global.website-files.com/6547600aa272d0cc570e8feb/6594e760b92dbe1e15d426a3_Mizko%20OG.jpg"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715074951/slw8hnlb0tidpevi8tra.jpg"
         property="og:image"
       />
       <meta
-        content="UX/UI Designer &amp; Educator in Sydney, Australia"
+        content="UX/UI designer & Frontend dev in Cameroon"
         property="twitter:title"
       />
       <meta
-        content="Hello there, I'm Mizko! I went from designer → agency owner → now founder and educator at Designership. I teach the skills and tricks that helped me build a multi-million dollar design agency, serving 50+ companies and impacting millions worldwide!"
+        content="Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential."
         property="twitter:description"
       />
       <meta
-        content="https://assets-global.website-files.com/6547600aa272d0cc570e8feb/6594e760b92dbe1e15d426a3_Mizko%20OG.jpg"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715074951/slw8hnlb0tidpevi8tra.jpg"
         property="twitter:image"
       />
       <meta property="og:type" content="website" />
