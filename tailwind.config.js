@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ["Playfair Display", ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         grey: "#777777",
         Lightgrey: "#161616",

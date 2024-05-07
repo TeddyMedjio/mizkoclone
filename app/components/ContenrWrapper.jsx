@@ -1,4 +1,5 @@
 import About from "./About";
+import Citation from "./Citation";
 import Experience from "./Experience";
 import Navbar from "./Navbar";
 import Slider from "./Slider";
@@ -12,6 +13,7 @@ const ContenrWrapper = () => {
       <Slider />
       <Experience />
       <About />
+      <Citation />
     </div>
   );
 };

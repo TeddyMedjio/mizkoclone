@@ -1,12 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   color: #ffff;
   background: black;
   position: relative;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .rotation {
   -webkit-transform: rotate(-90deg);
@@ -34,7 +38,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
