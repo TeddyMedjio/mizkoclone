@@ -9,6 +9,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
+      {/* desktop menu */}
       <div className="px-5 py-[11px] flex items-center justify-between ">
         <Link href="/" className="flex items-start">
           <p className=" text-[21px] font-bold">N.Jean</p>

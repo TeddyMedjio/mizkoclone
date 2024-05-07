@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavLeft = () => {
   return (
-    <div className="sticky py-2 top-0 h-screen w-[67px] border-r border-[#222222] z-[1]">
+    <div className=" hidden md:sticky py-2 top-0 h-screen w-[67px] border-r border-[#222222] z-[1]">
       <div className="h-full w-full flex flex-col items-center justify-between  ">
         <div className=" grid gap-2">
           <Link
