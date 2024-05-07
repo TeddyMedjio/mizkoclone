@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* desktop menu */}
       <div className="px-5 py-[11px] flex items-center justify-between ">
         <Link href="/" className="flex items-start">
-          <p className=" text-[21px] font-bold">N.Jean</p>
+          <p className=" text-[21px] font-bold">N. Jean</p>
           <span className=" font-semibold ml-1 text-[9px] py-[1px] px-[4px] rounded border border-[#222222] bg-Lightgrey">
             claude
           </span>

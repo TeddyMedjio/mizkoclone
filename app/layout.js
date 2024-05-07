@@ -3,7 +3,7 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata = {
-  title: "UX/UI designer & Frontend dev in Cameroon",
+  title: "UX/UI designer & Frontend dev based in Cameroon",
   description:
     "Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential.",
 };
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <meta
-        content="UX/UI designer & Frontend dev in Cameroon"
+        content="UX/UI designer & Frontend dev based in Cameroon"
         property="og:title"
       />
       <meta
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         property="og:image"
       />
       <meta
-        content="UX/UI designer & Frontend dev in Cameroon"
+        content="UX/UI designer & Frontend dev based in Cameroon"
         property="twitter:title"
       />
       <meta

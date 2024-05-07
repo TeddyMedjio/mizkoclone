@@ -1,5 +1,5 @@
-import ContenrWrapper from "./components/ContenrWrapper";
-import NavLeft from "./components/NavLeft";
+import ContenrWrapper from "@/components/ContenrWrapper";
+import NavLeft from "@/components/NavLeft";
 
 export default function Home() {
   return (
