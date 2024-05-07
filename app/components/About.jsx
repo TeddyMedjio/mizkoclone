@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center px-5 lg:px-0">
-          <div className=" flex flex-col max-w-[934px] my-24 space-y-6">
+          <div className=" flex flex-col max-w-[934px] my-10 space-y-6">
             <h2 className="text-[34px] md:text-[42px] font-semibold">
               About me
             </h2>
