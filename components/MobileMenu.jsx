@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import Link from "next/link";
+import { Alert } from "./Alert";
 
 const MobileMenu = () => {
   return (
@@ -46,13 +47,8 @@ const MobileMenu = () => {
                   </Link>
                 </ul>
               </SheetFooter>
-              <div className=" w-full mt-10 space-y-3 flex flex-col items-center justify-center">
-                {/* <div className="border border-[#222222] py-[10px] px-4 w-full rounded-lg flex space-x-2 items-center justify-center hover:bg-Lightgrey">
-                  <Link href="/" className=" font-medium text-sm">
-                    Newsletter
-                  </Link>
-                  <Image src="/link.svg" height={16} width={16} alt="icon" />
-                </div> */}
+              <div className=" mt-10 space-y-3 flex flex-col items-center justify-center">
+                <Alert variant="secondary" />
                 <Link
                   href="mailto:hello.medjio.me"
                   className="text-sm font-medium py-[10px] px-4 w-full text-center bg-white text-black rounded-lg"

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
+import { Alert } from "./Alert";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -40,12 +41,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="hidden space-x-3 md:flex items-center">
-          {/* <div className="border border-[#222222] py-[10px] px-4 rounded-lg flex space-x-2 hover:bg-Lightgrey">
-            <Link href="/" className=" font-medium text-sm">
-              Newsletter
-            </Link>
-            <Image src="/link.svg" height={16} width={16} alt="icon" />
-          </div> */}
+          <Alert />
           <Link
             href="mailto:hello.medjio.me"
             className="text-sm font-medium py-[10px] px-4 bg-white text-black rounded-lg"

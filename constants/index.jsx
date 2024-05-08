@@ -8,10 +8,4 @@ export const NAV_LINKS = [
     label: "Projets",
     target: "_blank",
   },
-  {
-    href: "https://scarfacedigitalagency.vercel.app/",
-    key: "agency",
-    label: "Agency",
-    target: "_blank",
-  },
 ];
