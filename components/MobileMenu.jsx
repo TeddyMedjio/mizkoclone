@@ -38,13 +38,6 @@ const MobileMenu = () => {
                   >
                     Projets
                   </Link>
-
-                  <Link
-                    href="https://scarfacedigitalagency.vercel.app/"
-                    target="blank"
-                  >
-                    Agency
-                  </Link>
                 </ul>
               </SheetFooter>
               <div className=" mt-10 space-y-3 flex flex-col items-center justify-center">
