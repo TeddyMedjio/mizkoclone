@@ -1,6 +1,5 @@
 import {
   AlertDialog,
-  AlertDialogAction,
   AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
@@ -15,10 +14,12 @@ import Image from "next/image";
 export function Alert() {
   return (
     <AlertDialog>
-      <AlertDialogTrigger>
+      <AlertDialogTrigger asChild>
         <div className="">
           <Button variant="secondary">My Skills</Button>
         </div>
+      </AlertDialogTrigger>
+      <AlertDialogTrigger asChild>
         <div className="hidden md:block">
           <Button variant="outline">My Skills</Button>
         </div>
@@ -118,8 +119,6 @@ export function Alert() {
         </AlertDialogHeader>
         <AlertDialogFooter>
           <AlertDialogCancel>Close</AlertDialogCancel>
-
-          {/* <AlertDialogAction>Continue</AlertDialogAction> */}
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>

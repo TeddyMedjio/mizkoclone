@@ -55,13 +55,6 @@ const Footer = () => {
               >
                 Projets
               </Link>
-              <Link
-                href="https://scarfacedigitalagency.vercel.app/"
-                className="hover:text-white transition-all duration-300"
-                target="_blank"
-              >
-                Agency
-              </Link>
             </ul>
           </div>
 
