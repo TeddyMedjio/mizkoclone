@@ -49,7 +49,7 @@ const Footer = () => {
                 About
               </Link>
               <Link
-                href="/projets"
+                href="https://scarfacedigitalagency.vercel.app/work"
                 className="hover:text-white transition-all duration-300"
               >
                 Projets
