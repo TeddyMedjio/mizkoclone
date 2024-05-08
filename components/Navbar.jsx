@@ -9,7 +9,7 @@ import MobileMenu from "./MobileMenu";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
+    <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
       <div className="px-5 py-[11px] flex items-center justify-between ">
         <Link href="/" className="flex items-start">
           <p className=" text-[28px] md:text-[21px] font-bold">N. Jean</p>
@@ -29,6 +29,7 @@ const Navbar = () => {
               <Link
                 href={link.href}
                 key={link.key}
+                target={link.target}
                 className={`link ${
                   pathname === `${link.href}` ? "font-semibold text-white " : ""
                 }`}
@@ -53,7 +54,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

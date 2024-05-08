@@ -1,7 +1,8 @@
 import {
   Sheet,
   SheetContent,
-  //   SheetDescription,
+  SheetFooter,
+  SheetClose,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -21,12 +22,30 @@ const MobileMenu = () => {
         <SheetContent>
           <SheetHeader>
             <SheetTitle>
-              <ul className="flex flex-col mt-40 space-y-5">
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="#">Projets</Link>
-                <Link href="#">Agency</Link>
-              </ul>
+              <SheetFooter>
+                <ul className="flex flex-col mt-40 space-y-5">
+                  <SheetClose asChild>
+                    <Link href="/">Home</Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link href="/about">About</Link>
+                  </SheetClose>
+
+                  <Link
+                    href="https://scarfacedigitalagency.vercel.app/work"
+                    target="blank"
+                  >
+                    Projets
+                  </Link>
+
+                  <Link
+                    href="https://scarfacedigitalagency.vercel.app/"
+                    target="blank"
+                  >
+                    Agency
+                  </Link>
+                </ul>
+              </SheetFooter>
               <div className=" w-full mt-10 space-y-3 flex flex-col items-center justify-center">
                 {/* <div className="border border-[#222222] py-[10px] px-4 w-full rounded-lg flex space-x-2 items-center justify-center hover:bg-Lightgrey">
                   <Link href="/" className=" font-medium text-sm">
