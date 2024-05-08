@@ -28,12 +28,12 @@ const MobileMenu = () => {
                 <Link href="#">Agency</Link>
               </ul>
               <div className=" w-full mt-10 space-y-3 flex flex-col items-center justify-center">
-                <div className="border border-[#222222] py-[10px] px-4 w-full rounded-lg flex space-x-2 items-center justify-center hover:bg-Lightgrey">
+                {/* <div className="border border-[#222222] py-[10px] px-4 w-full rounded-lg flex space-x-2 items-center justify-center hover:bg-Lightgrey">
                   <Link href="/" className=" font-medium text-sm">
                     Newsletter
                   </Link>
                   <Image src="/link.svg" height={16} width={16} alt="icon" />
-                </div>
+                </div> */}
                 <Link
                   href="mailto:hello.medjio.me"
                   className="text-sm font-medium py-[10px] px-4 w-full text-center bg-white text-black rounded-lg"
