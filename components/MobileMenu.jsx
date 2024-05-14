@@ -31,6 +31,9 @@ const MobileMenu = () => {
                   <SheetClose asChild>
                     <Link href="/about">About</Link>
                   </SheetClose>
+                  <SheetClose asChild>
+                    <Link href="/blog">Blog</Link>
+                  </SheetClose>
 
                   <Link
                     href="https://scarfacedigitalagency.vercel.app/work"

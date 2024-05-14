@@ -49,6 +49,12 @@ const Footer = () => {
                 About
               </Link>
               <Link
+                href="/blog"
+                className="hover:text-white transition-all duration-300"
+              >
+                Blog
+              </Link>
+              <Link
                 target="_blank"
                 href="https://scarfacedigitalagency.vercel.app/work"
                 className="hover:text-white transition-all duration-300"
