@@ -13,7 +13,7 @@ const notfound = () => {
           </h1>
           <p className="text-center text-2xl">
             Oops.. The link you clicked may be broken or the <br /> page may
-            have been removed. We're sorry
+            have been removed. We&apos;re sorry
           </p>
         </div>
         <Link
