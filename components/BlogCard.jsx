@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BlogCard = ({ postData }) => {
   return (
-    <Link href={`/${postData._id}`}>
+    <Link href={`/${postData.slug}`}>
       <div className=" relative w-full lg:w-[300px] rounded-lg border border-[#222222] pb-5 lg:h-[410px] cursor-pointer group">
         <div className="w-full overflow-hidden">
           <Image
@@ -19,7 +19,7 @@ const BlogCard = ({ postData }) => {
             <p className="text-grey text-sm">
               {postData.author.name}/{" "}
               <span className="text-gray-300">
-                {Date(postData.publishedAt).substring(0, 15)}
+                {postData.publishedAt.substring(0, 10)}
               </span>
             </p>
           </div>

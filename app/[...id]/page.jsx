@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlogPage = async ({ params }) => {
-  const postID = params.id[0];
+  const postID = params.slug;
   const posts = await getPosts();
 
-  const singlePost = posts.find((post) => post._id === postID);
+  const singlePost = posts.find((post) => post.slug.current === postID);
 
   return (
     <div className="relative">
@@ -54,7 +54,7 @@ const SingleBlogPage = async ({ params }) => {
         </Link>
         <div className="flex flex-col space-y-6 ">
           <p className="text-grey text-sm">
-            {Date(singlePost.publishedAt).substring(0, 15)}
+            {singlePost.publishedAt.substring(0, 10)}
           </p>
           <h1 className="text-5xl font-semibold ">{singlePost.title}</h1>
 
