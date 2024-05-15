@@ -1,5 +1,5 @@
-import "../style/globals.css";
 import { GeistSans } from "geist/font/sans";
+import "../style/globals.css";
 
 export const metadata = {
   title: "UX/UI designer & Frontend dev based in Cameroon",
