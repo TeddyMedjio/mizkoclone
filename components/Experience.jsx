@@ -24,25 +24,6 @@ const Experience = () => {
               </div>
             </div>
           ))}
-
-          {/* <div className="border-[#222222] border-b px-5 pb-10 lg:px-0 lg:border-0 lg:max-w-[348px]">
-            <div className="space-y-4">
-              <Image src="arrow.svg" height={44} width={44} alt="arrow icon" />
-              <div className="lg:space-y-4 flex flex-row lg:flex-col items-center lg:items-start justify-between">
-                <h2 className="font-medium text-[24px] text-[#cccccc]">
-                  Development
-                </h2>
-                <p className="text-[13px] rounded-[4px] uppercase font-medium border border-[#222222] px-2 py-1 text-grey bg-[#111111]">
-                  08 Years
-                </p>
-              </div>
-              <p className="text-base text-grey">
-                I build scalable websites from scratch that fit seamlessly with
-                design. My focus is on micro animations, transitions and
-                interaction.
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

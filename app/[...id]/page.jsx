@@ -4,6 +4,10 @@ import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Blog",
+};
+
 const SingleBlogPage = async ({ params }) => {
   const posts = await getPosts();
   const postID = params.id[0];
@@ -47,7 +51,7 @@ const SingleBlogPage = async ({ params }) => {
       <div className="flex space-y-8 pt-20 pb-10 flex-col lg:max-w-[934px] px-4 mx-auto ">
         <Link
           href="/blog"
-          className=" flex font-medium py-[10px] bg-white text-black w-fit rounded-lg md:px-4 text-sm"
+          className=" flex font-medium py-[10px] bg-white text-black w-fit rounded-lg px-4 text-sm"
         >
           <Image src="/arrow-left.svg" width={8} height={8} alt="arrow icon" />
           <p className="ml-2">Return</p>

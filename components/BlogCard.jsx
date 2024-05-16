@@ -17,10 +17,8 @@ const BlogCard = ({ postData }) => {
         <div className="px-5">
           <div className="my-3">
             <p className="text-grey text-sm">
-              {postData.author.name}/{" "}
-              <span className="text-gray-300">
-                {postData.publishedAt.substring(0, 10)}
-              </span>
+              <span className="text-gray-300">{postData.author.name}</span>/
+              {postData.publishedAt.substring(0, 10)}
             </p>
           </div>
           <div>
@@ -29,7 +27,7 @@ const BlogCard = ({ postData }) => {
             <div className="w-fit mt-2">
               {postData.categories.map((category) => (
                 <p
-                  className=" bg-[#222222] text-slate-200 py-1 px-2 text-xs rounded-full absolute top-3 left-5"
+                  className=" bg-[#222222] text-slate-200 py-2 px-4 text-xs rounded-lg absolute top-3 left-5"
                   key={category._id}
                 >
                   {category.name}
