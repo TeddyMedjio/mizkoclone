@@ -42,7 +42,7 @@ const Wrapper = () => {
             loop
             muted
             playsInline
-            poster="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715074951/slw8hnlb0tidpevi8tra.jpg"
+            poster="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715846818/ypdpqn4sxlybqy7ebmcy.webp"
           >
             <source
               src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1704540192/yd6i93dbyzr7epgi3yeo.mp4"
