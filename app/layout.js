@@ -39,6 +39,13 @@ export default function RootLayout({ children }) {
         property="twitter:image"
       />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="keywords"
+        content="Medjio, ux designer, ui designer, web developer, Next.Js, React.js, Front-end, Visual designer, JavaScript, UX.designer, Tailwind CSS, Graphic.designer, freelancer"
+      />
+
+      <meta name="twitter:author" content="@nganmedjio_jean" />
+      <meta name="twitter:site" content="@nganmedjio_jean" />
       <meta property="og:locale" content="en" />
       <meta property="og:site_name" content="Medjio" />
       <meta property="og:type" content="website" />
