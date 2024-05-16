@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         name="description"
       />
       <meta
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715846818/ypdpqn4sxlybqy7ebmcy.webp"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899115/j7tgo9cyjvqkel7xmhfh.webp"
         property="og:image"
       />
       <meta
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
         property="twitter:description"
       />
       <meta
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715846818/ypdpqn4sxlybqy7ebmcy.webp"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899115/j7tgo9cyjvqkel7xmhfh.webp"
         property="twitter:image"
       />
       <meta property="og:type" content="website" />
