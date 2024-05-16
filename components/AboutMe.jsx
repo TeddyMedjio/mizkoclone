@@ -19,9 +19,10 @@ const AboutMe = () => {
           <div className=" flex flex-col max-w-[934px] my-10 space-y-6">
             <h2 className="text-[34px] md:text-[82px] font-semibold">Hey!</h2>
             <p className=" text-[16px] md:text-[19px] text-grey">
-              I am Nganmedjio Jean Claude and i am passionate about the Web and
-              graphic design, I like to collaborate with people who attach
-              importance to aesthetics, who understand{" "}
+              I am <span className="text-white">Nganmedjio Jean Claude</span>{" "}
+              and i am passionate about the Web and graphic design, I like to
+              collaborate with people who attach importance to aesthetics, who
+              understand{" "}
               <span className="text-white font-semibold">
                 the power of simplicity and who know that a good customer
                 experience is essential.

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BlogCard = ({ postData }) => {
   return (
-    <Link href={`/${postData.slug}`}>
+    <Link href={`/${postData._id}`}>
       <div className=" relative w-full lg:w-[300px] rounded-lg border border-[#222222] pb-5 lg:h-[410px] cursor-pointer group">
         <div className="w-full overflow-hidden">
           <Image
@@ -14,7 +14,7 @@ const BlogCard = ({ postData }) => {
             className="object-cover w-full lg:max-w-[300px] group-hover:scale-110 transition-transform duration-300 lg:grayscale group-hover:grayscale-0"
           />
         </div>
-        <div className="px-2">
+        <div className="px-5">
           <div className="my-3">
             <p className="text-grey text-sm">
               {postData.author.name}/{" "}

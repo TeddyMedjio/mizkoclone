@@ -5,13 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlogPage = async ({ params }) => {
-  const postID = params.slug;
   const posts = await getPosts();
+  const postID = params.id[0];
 
-  const singlePost = posts.find((post) => post.slug.current === postID);
+  const singlePost = posts.find((post) => post._id === postID);
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <div className="absolute -inset-10 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-[#222222] [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -44,10 +44,10 @@ const SingleBlogPage = async ({ params }) => {
         </svg>
       </div>
 
-      <div className="flex space-y-8 pt-20 pb-10 flex-col lg:max-w-[804px] px-4 mx-auto ">
+      <div className="flex space-y-8 pt-20 pb-10 flex-col lg:max-w-[934px] px-4 mx-auto ">
         <Link
           href="/blog"
-          className=" flex px-3 py-2 bg-white text-black w-fit rounded-md font-medium text-sm"
+          className=" flex font-medium py-[10px] bg-white text-black w-fit rounded-lg md:px-4 text-sm"
         >
           <Image src="/arrow-left.svg" width={8} height={8} alt="arrow icon" />
           <p className="ml-2">Return</p>

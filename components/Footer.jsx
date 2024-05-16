@@ -13,8 +13,9 @@ const Footer = () => {
             </span>
           </Link>
           <p className="text-sm text-grey my-5">
-            I am UX/UI designer & Frontend dev based in Cameroon and I like to
-            collaborate with people who attach importance to aesthetics.
+            I am UX/UI designer & Frontend dev and i am accessible everywhere in
+            the world to collaborate with people who attach importance to
+            aesthetics.
           </p>
           <p className="text-sm text-grey">
             © 2024 - 2025 N. Jean, All rights reserved.

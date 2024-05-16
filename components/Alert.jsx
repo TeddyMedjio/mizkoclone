@@ -27,93 +27,86 @@ export function Alert() {
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>A unique set of skills</AlertDialogTitle>
+
           <AlertDialogDescription>
             An end-to-end set of skills for the ambitious dev.
             <div className="grid grid-cols-4 grid-rows-2 gap-4 mt-10">
-              <Image
-                src="/figma.svg"
-                height={66}
-                width={92}
-                alt="logo figma"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/nextjs.svg"
-                height={66}
-                width={92}
-                alt="logo nextjs"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/react.svg"
-                height={66}
-                width={92}
-                alt="logo react"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/javascript.svg"
-                height={66}
-                width={92}
-                alt="logo xd"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/tailwind.svg"
-                height={66}
-                width={92}
-                alt="logo tailwind"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/html.svg"
-                height={66}
-                width={92}
-                alt="logo html"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/css.svg"
-                height={66}
-                width={92}
-                alt="logo css"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/vscode.svg"
-                height={66}
-                width={92}
-                alt="logo vscode"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/git.svg"
-                height={66}
-                width={92}
-                alt="logo git"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/photoshop.svg"
-                height={66}
-                width={92}
-                alt="logo photoshop"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/illustrator.svg"
-                height={66}
-                width={92}
-                alt="logo illustrator"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/xd.svg"
-                height={66}
-                width={92}
-                alt="logo xd"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
+              <div className=" h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/figma.svg"
+                  height={92}
+                  width={92}
+                  alt="logo figma"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/nextjs.svg"
+                  height={92}
+                  width={92}
+                  alt="logo nextjs"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/react.svg"
+                  height={92}
+                  width={92}
+                  alt="logo react"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/javascript.svg"
+                  height={92}
+                  width={92}
+                  alt="logo xd"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/tailwind.svg"
+                  height={92}
+                  width={92}
+                  alt="logo tailwind"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image src="/html.svg" height={92} width={92} alt="logo html" />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image src="/css.svg" height={92} width={92} alt="logo css" />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/vscode.svg"
+                  height={92}
+                  width={92}
+                  alt="logo vscode"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image src="/git.svg" height={92} width={92} alt="logo git" />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/photoshop.svg"
+                  height={92}
+                  width={92}
+                  alt="logo photoshop"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image
+                  src="/illustrator.svg"
+                  height={92}
+                  width={92}
+                  alt="logo illustrator"
+                />
+              </div>
+              <div className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
+                <Image src="/xd.svg" height={92} width={92} alt="logo xd" />
+              </div>
             </div>
           </AlertDialogDescription>
         </AlertDialogHeader>

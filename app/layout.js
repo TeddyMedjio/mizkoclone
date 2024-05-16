@@ -1,8 +1,12 @@
 import { GeistSans } from "geist/font/sans";
-import "../styles/globals.css";
+import "@/styles/globals.css";
 
 export const metadata = {
-  title: "UX/UI designer & Frontend dev based in Cameroon",
+  title: {
+    default: "UX/UI designer & Frontend dev",
+    template: "%s | N. Jean Claude",
+  },
+
   description:
     "Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential.",
 };

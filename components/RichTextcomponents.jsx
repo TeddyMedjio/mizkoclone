@@ -3,21 +3,21 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const RichTextcomponents = {
-  //   types: {
-  //     image: ({ value }) => {
-  //       return (
-  //         <div className="z-50 absolute w-full h-10">
-  //           <Image
-  //             src={urlFor(value).url()}
-  //             width={value.width}
-  //             height={value.height}
-  //             alt="Blog Post Image"
-  //             fill
-  //           />
-  //         </div>
-  //       );
-  //     },
+  // types: {
+  //   image: ({ value }) => {
+  //     return (
+  //       <div className="z-50 absolute w-full h-10">
+  //         <Image
+  //           src={urlFor(value).urlFor()}
+  //           width={value.width}
+  //           height={value.height}
+  //           alt="Blog Post Image"
+  //           fill
+  //         />
+  //       </div>
+  //     );
   //   },
+  // },
   list: {
     bullet: ({ children }) => (
       <ul className="ml-10 py-5 list-disc space-y-5">{children}</ul>

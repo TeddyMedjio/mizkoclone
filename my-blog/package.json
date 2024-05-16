@@ -15,6 +15,7 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.41.1",
     "@superside-oss/sanity-plugin-copy-paste": "^1.0.3",
     "react": "^18.2.0",
