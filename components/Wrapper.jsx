@@ -45,11 +45,11 @@ const Wrapper = () => {
             poster="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715846818/ypdpqn4sxlybqy7ebmcy.webp"
           >
             <source
-              src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1704540192/yd6i93dbyzr7epgi3yeo.mp4"
+              src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1715850371/wax6kithybb8csmonqze.mp4"
               type="video/mp4"
             />
             <source
-              src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1704540811/qepa3oowzkjhx2rfpurh.webm"
+              src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1715850372/uwiyceydmijerhgtrxjw.webm"
               type="video/webm"
             />
           </video>
