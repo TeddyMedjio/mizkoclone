@@ -20,7 +20,7 @@ module.exports = {
         heading: ["Playfair Display", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        grey: "#777777",
+        grey: "#d4d4d8cc",
         Lightgrey: "#161616",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
