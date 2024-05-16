@@ -38,6 +38,9 @@ export default function RootLayout({ children }) {
         content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899357/qvdstxpszkesyfgwlaua.jpg"
         property="twitter:image"
       />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="og:locale" content="en" />
+      <meta property="og:site_name" content="Medjio" />
       <meta property="og:type" content="website" />
       <meta content="summary_large_image" name="twitter:card" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
