@@ -27,7 +27,8 @@ export default function RootLayout({ children }) {
         property="og:image"
       />
       <meta
-        content="UX/UI designer & Frontend dev based in Cameroon"
+        content="UX/UI designer & Frontend and i am accessible everywhere in
+        the world"
         property="twitter:title"
       />
       <meta
