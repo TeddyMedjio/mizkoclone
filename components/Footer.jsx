@@ -37,31 +37,39 @@ const Footer = () => {
               Navigation
             </p>
             <ul className="flex flex-col text-grey space-y-2 ">
-              <Link
-                href="/"
-                className="hover:text-white transition-all duration-300"
-              >
-                Home
-              </Link>
-              <Link
-                href="/about"
-                className="hover:text-white transition-all duration-300"
-              >
-                About
-              </Link>
-              <Link
-                href="/blog"
-                className="hover:text-white transition-all duration-300"
-              >
-                Blog
-              </Link>
-              <Link
-                target="_blank"
-                href="https://scarfacedigitalagency.vercel.app/work"
-                className="hover:text-white transition-all duration-300"
-              >
-                Projets
-              </Link>
+              <li>
+                <Link
+                  href="/"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  target="_blank"
+                  href="https://scarfacedigitalagency.vercel.app/work"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Projets
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -70,27 +78,33 @@ const Footer = () => {
               Social Media
             </p>
             <ul className="flex flex-col text-grey space-y-2 ">
-              <Link
-                href="https://www.instagram.com/nganme_jean/"
-                target="blank"
-                className="hover:text-white transition-all duration-300"
-              >
-                Instagram
-              </Link>
-              <Link
-                href="https://www.behance.net/njean"
-                target="blank"
-                className="hover:text-white transition-all duration-300"
-              >
-                Behance
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
-                target="blank"
-                className="hover:text-white transition-all duration-300"
-              >
-                Linkedin
-              </Link>
+              <li>
+                <Link
+                  href="https://www.instagram.com/nganme_jean/"
+                  target="blank"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Instagram
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.behance.net/njean"
+                  target="blank"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Behance
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
+                  target="blank"
+                  className="hover:text-white transition-all duration-300"
+                >
+                  Linkedin
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
