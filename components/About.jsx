@@ -8,7 +8,7 @@ const About = () => {
           <Image
             quality={100}
             fill={true}
-            src="/background.jpg"
+            src="/background.webp"
             alt="image of office"
             className=" object-cover absolute"
           />
