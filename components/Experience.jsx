@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div className="px-0 md:px-5">
       <div className="border-x border-[#222222] border-b w-full 2xl:w-[70%] 2xl:mx-auto">
-        <div className=" space-y-10 lg:space-y-0 lg:mx-10 pt-14 lg:pb-14 flex flex-col lg:flex-row lg:gap-20 items-center justify-normal">
+        <div className=" space-y-10 lg:space-y-0 lg:mx-10 pt-14 lg:pb-14 flex flex-col lg:flex-row lg:gap-20 items-center lg:items-start justify-normal">
           {SKILL.map((skill) => (
             <div
               key={skill.key}
