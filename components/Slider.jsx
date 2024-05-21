@@ -54,7 +54,7 @@ const Slider = () => {
             />
             <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
             <Image
-              src="/laravelcameroon.svg"
+              src="/laravelCameroon.svg"
               height={50}
               width={50}
               alt="logo laravelcameroon"
@@ -79,7 +79,7 @@ const Slider = () => {
             />
             <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
             <Image
-              src="/laravelcameroon.svg"
+              src="/laravelCameroon.svg"
               height={50}
               width={50}
               alt="logo laravelcameroon"
