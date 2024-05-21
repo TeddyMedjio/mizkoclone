@@ -26,9 +26,6 @@ export default function RootLayout({ children }) {
         property="og:image"
         content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899357/qvdstxpszkesyfgwlaua.jpg"
       />
-      <meta property="og:site_name" content="N. Jean Claude" />
-      <meta property="og:locale" content="fr" />
-      <meta property="og:type" content="website" />
       <meta
         property="twitter:title"
         content="UX/UI designer & Frontend and i am accessible everywhere in
