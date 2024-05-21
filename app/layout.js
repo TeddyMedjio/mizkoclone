@@ -14,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta name="author" content="Nganmedjio Jean Claude" />
       <meta
         property="og:title"
         content="UX/UI designer & Frontend dev based in Cameroon"
@@ -26,6 +27,9 @@ export default function RootLayout({ children }) {
         property="og:image"
         content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899357/qvdstxpszkesyfgwlaua.jpg"
       />
+      <meta property="og:site_name" content="Medjio" />
+      <meta property="og:locale" content="en" />
+      <meta property="og:type" content="website" />
       <meta
         property="twitter:title"
         content="UX/UI designer & Frontend and i am accessible everywhere in
@@ -47,11 +51,7 @@ export default function RootLayout({ children }) {
 
       <meta name="twitter:author" content="@Nganmedjio_jean" />
       <meta name="twitter:site" content="@Nganmedjio_jean" />
-      <meta property="og:locale" content="en" />
-      <meta property="og:site_name" content="Medjio" />
-      <meta property="og:type" content="website" />
 
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
       <body className={`${GeistSans.className} antialiased`}>{children}</body>
     </html>
   );
