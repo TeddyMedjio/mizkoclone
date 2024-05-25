@@ -1,5 +1,5 @@
-import ContentBlog from "@/components/ContentBlog";
-import NavLeft from "@/components/NavLeft";
+import ContentBlog from "../../components/ContentBlog";
+import NavLeft from "../../components/NavLeft";
 
 export const metadata = {
   title: "Blog",

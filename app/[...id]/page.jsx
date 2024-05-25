@@ -1,5 +1,5 @@
-import { RichTextcomponents } from "@/components/RichTextcomponents";
-import { getPosts } from "@/lib/client";
+import { RichTextcomponents } from "../../components/RichTextcomponents";
+import { getPosts } from "../../lib/client";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import Link from "next/link";

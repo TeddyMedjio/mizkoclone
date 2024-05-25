@@ -1,6 +1,6 @@
 "use client";
 
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS } from "../constants";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,7 +46,7 @@ const Navbar = () => {
             href="mailto:hello.medjio.me"
             className="text-sm font-medium py-[10px] px-4 bg-white text-black rounded-lg"
           >
-            Get in touch
+            Me contacter
           </Link>
         </div>
       </div>

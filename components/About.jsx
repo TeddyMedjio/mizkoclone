@@ -17,37 +17,40 @@ const About = () => {
         <div className="flex flex-col items-center justify-center px-5 lg:px-0">
           <div className=" flex flex-col max-w-[934px] my-10 space-y-6">
             <h2 className="text-[34px] md:text-[42px] font-semibold">
-              About me
+              A propos de moi
             </h2>
             <p className=" text-[16px] md:text-[19px] text-grey">
-              I help designers and founders win.
+              J&apos;aide les designers et les fondateurs à gagner.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              I make sites and designs, and I do it well. Passionate about the
-              Web and graphic design, I like to collaborate with people who
-              attach importance to aesthetics, who understand{" "}
+              Je crée des sites et des designs, et je le fais bien. Passionné
+              par la Conception web et graphique, j&apos;aime collaborer avec
+              des personnes qui attachent de l&apos;importance à
+              l&apos;esthétique, qui comprennent{" "}
               <span className="text-white font-semibold">
-                the power of simplicity and who know that a good customer
-                experience is essential.
+                le pouvoir de la simplicité et qui savent que l&apos;expérience
+                d&apos;un bon client est essentielle.
               </span>
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              By keeping your identity at the heart of my approach, my goal is
-              to ensure that I find the simplest solution to meet your needs. My
-              clients use my services for my efficiency, my versatility and my
-              ease in our discussions and also because I make incredible
-              cookies, the secret is to use a lot of semi-salted butter.
+              En gardant votre identité au cœur de ma démarche, mon objectif est
+              de m&apos;assurer de trouver la solution la plus simple pour
+              répondre à vos besoins. Les clients font appels à mes services
+              pour mon efficacité, ma polyvalence et la facilité dans nos
+              discussions et aussi parce que je fais des incroyables cookies, le
+              secret est d'utiliser beaucoup de beurre demi-sel.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              The majority of my free time is devoted to music and cooking, an
-              exciting activity that allows me to develop my creativity..
+              La majorité de mon temps libre est consacrée à la musique et à la
+              cuisine, une activité passionnante qui me permet de développer ma
+              créativité.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
               <span className="text-white font-semibold">
-                I like the number 3,
+                J&apos;aime le chiffre 3,
               </span>{" "}
-              I think it has something to do with the fact that I was born in
-              the 3rd month.
+              Je pense que cela a quelque chose à voir avec le fait que je suis
+              né en le 3ème mois.
             </p>
           </div>
         </div>

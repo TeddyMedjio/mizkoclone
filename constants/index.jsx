@@ -1,8 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
-  { href: "/about", key: "about ", label: "About " },
-  { href: "/blog", key: "log ", label: "Blog " },
+  { href: "/", key: "acceuil", label: "Acceuil" },
+  { href: "/about", key: "apropos ", label: "A Propos " },
+  { href: "/blog", key: "blog ", label: "Blog " },
   {
     href: "https://scarfacedigitalagency.vercel.app/work",
     key: "courses",
@@ -15,29 +15,29 @@ export const SKILL = [
   {
     key: "uxdesigner",
     title: "UX Designer",
-    year: "06 YEARS",
+    year: "06 ANS",
     description:
-      "10 years of design experience, helping my clients make big money and reach over 300 million users; I merge great aesthetics, design thinking with strategic growth tactics.",
+      "06 ans d'expérience en conception, aidant mes clients à gagner beaucoup d'argent et à atteindre plus leurs objectifs; Je fusionne une grande esthétique et le design thinking .",
   },
   {
     key: "visualdesigner ",
     title: "Visual Designer ",
-    year: "07 YEARS",
+    year: "07 ANS",
     description:
-      "With a solid track record in designing websites, I deliver strong and user-friendly digital designs. (Since 10 Years in combination with development)",
+      "Avec une solide expérience dans la conception de sites Web, je propose des conceptions numériques solides et conviviales. (Depuis 07 ans en combinaison avec le développement)",
   },
   {
     key: "graphicdesigner ",
-    title: "Graphic Designer ",
-    year: "+12 YEARS",
+    title: "Designer Graphique ",
+    year: "+12 ANS",
     description:
-      "I spent most of the last years helping companies scale their business by getting products from 0 to 1 and shaping the brands behind them.",
+      "J'ai passé la plupart des dernières années à aider les entreprises à développer leurs activités en faisant passer leurs produits de 0 à 1 et en façonnant les marques.",
   },
   {
     key: "development ",
-    title: "Development ",
-    year: "04 YEARS",
+    title: "Développement ",
+    year: "04 Ans",
     description:
-      "I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions and interaction.",
+      "Je crée des sites Web évolutifs à partir de zéro qui s'intègrent parfaitement au design. Je me concentre sur les micro-animations, les transitions et l'interaction.",
   },
 ];

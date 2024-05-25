@@ -6,7 +6,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../components/ui/sheet";
 import Image from "next/image";
 import Link from "next/link";
 import { Alert } from "./Alert";
@@ -26,10 +26,10 @@ const MobileMenu = () => {
               <SheetFooter>
                 <ul className="flex flex-col mt-40 space-y-5">
                   <SheetClose asChild>
-                    <Link href="/">Home</Link>
+                    <Link href="/">Acceuil</Link>
                   </SheetClose>
                   <SheetClose asChild>
-                    <Link href="/about">About</Link>
+                    <Link href="/about">A Propos</Link>
                   </SheetClose>
                   <SheetClose asChild>
                     <Link href="/blog">Blog</Link>
@@ -49,7 +49,7 @@ const MobileMenu = () => {
                   href="mailto:hello.medjio.me"
                   className="text-sm font-medium py-[10px] px-4 w-full text-center bg-white text-black rounded-lg"
                 >
-                  Get in touch
+                  Me contacter
                 </Link>
               </div>
             </SheetTitle>

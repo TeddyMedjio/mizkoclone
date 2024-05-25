@@ -13,9 +13,9 @@ const Footer = () => {
             </span>
           </Link>
           <p className="text-sm text-grey my-5">
-            I am UX/UI designer & Frontend dev and i am accessible everywhere in
-            the world to collaborate with people who attach importance to
-            aesthetics.
+            Je suis UX/UI designer & Frontend dev et je suis accessible partout
+            dans le monde pour collaborer avec des personnes qui attachent de
+            l&apos;importance à l&apos;esthétique.
           </p>
           <p className="text-sm text-grey">
             © 2024 - 2025 N. Jean, All rights reserved.
@@ -42,7 +42,7 @@ const Footer = () => {
                   href="/"
                   className="hover:text-white transition-all duration-300"
                 >
-                  Home
+                  Acceuil
                 </Link>
               </li>
               <li>
@@ -50,7 +50,7 @@ const Footer = () => {
                   href="/about"
                   className="hover:text-white transition-all duration-300"
                 >
-                  About
+                  A propos
                 </Link>
               </li>
               <li>

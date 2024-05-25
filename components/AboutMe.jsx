@@ -19,40 +19,42 @@ const AboutMe = () => {
           <div className=" flex flex-col max-w-[934px] my-10 space-y-6">
             <h2 className="text-[34px] md:text-[82px] font-semibold">Hey!</h2>
             <p className=" text-[16px] md:text-[19px] text-grey">
-              I am <span className="text-white">Nganmedjio Jean Claude</span>{" "}
-              and i am passionate about the Web and graphic design, I like to
-              collaborate with people who attach importance to aesthetics, who
-              understand{" "}
+              Je m&apos;appelle{" "}
+              <span className="text-white">Nganmedjio Jean Claude</span> et je
+              suis passionné par le Web et le graphisme, j&apos;aime collaborer
+              avec des personnes qui attachent de l&apos;importance à
+              l&apos;esthétique, qui comprennent{" "}
               <span className="text-white font-semibold">
-                the power of simplicity and who know that a good customer
-                experience is essential.
+                le pouvoir de la simplicité et qui savent qu&apos;une bonne
+                expérience client est essentielle.
               </span>
             </p>
 
             <p className="text-[16px] md:text-[19px] text-grey">
-              I like to spend my free time listening to podcasts about personal
-              development, playing football, taking photos, looking at bad
-              interfaces to improve them an exciting activity that allows me to
-              develop my creativity.
+              J'aime passer mon temps libre à écouter des podcasts sur le
+              développement personnel, jouer au football, prendre des photos,
+              regarder les mauvaises interfaces pour les améliorer, une activité
+              passionnante qui me permet de développer ma créativité.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              By keeping your identity at the heart of my approach, my goal is
-              to ensure that I find the simplest solution to meet your needs. My
-              clients use my services for my efficiency, my versatility and my
-              ease in our discussions and also because I make incredible
-              cookies, the secret is to use a lot of semi-salted butter.
+              En gardant votre identité au cœur de ma démarche, mon objectif est
+              de m&apos;assurer de trouver la solution la plus simple pour
+              répondre à vos besoins. Les clients font appels à mes services
+              pour mon efficacité, ma polyvalence et la facilité dans nos
+              discussions et aussi parce que je fais des incroyables cookies, le
+              secret est d'utiliser beaucoup de beurre demi-sel.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
               <span className="text-white font-semibold">
-                I like the number 3,
+                J&apos;aime le chiffre 3,
               </span>{" "}
-              I think it has something to do with the fact that I was born in
-              the 3rd month.
+              Je pense que cela a quelque chose à voir avec le fait que je suis
+              né en le 3ème mois.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              PS. Please keep in mind, my email is generally quite full with
-              requests so sometimes I might take a little longer to get back to
-              you.
+              PS. N'oubliez pas que mon courrier E-mail est généralement assez
+              rempli de demandes, donc parfois je peux prendre un peu plus de
+              temps pour vous repondre.
             </p>
           </div>
         </div>

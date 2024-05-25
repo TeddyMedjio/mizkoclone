@@ -7,27 +7,28 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
-import { Button } from "@/components/ui/button";
+} from "../components/ui/alert-dialog";
+import { Button } from "../components/ui/button";
 import Image from "next/image";
 
 export function Alert() {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button variant="secondary">My Skills</Button>
+        <Button variant="secondary">Mes compétences</Button>
       </AlertDialogTrigger>
       <AlertDialogTrigger asChild>
         <Button className="hidden md:block" variant="outline">
-          My Skills
+          Mes compétences
         </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>A unique set of skills</AlertDialogTitle>
+          <AlertDialogTitle>Un ensemble unique de compétences</AlertDialogTitle>
 
           <AlertDialogDescription>
-            An end-to-end set of skills for the ambitious dev.
+            Un ensemble de compétences de bout en bout pour les développeurs
+            ambitieux.
             <span className="grid grid-cols-4 grid-rows-2 gap-4 mt-10">
               <span className=" h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
                 <Image
@@ -109,7 +110,7 @@ export function Alert() {
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogCancel>Close</AlertDialogCancel>
+          <AlertDialogCancel>Fermer</AlertDialogCancel>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
