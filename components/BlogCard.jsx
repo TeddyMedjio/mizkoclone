@@ -33,7 +33,7 @@ const BlogCard = ({ postData }) => {
                   {category.name}
                 </p>
               ))}
-              <p className="mt-5 text-sm underline">Read more</p>
+              <p className="mt-5 text-sm underline">lire plus</p>
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@ const About = () => {
               répondre à vos besoins. Les clients font appels à mes services
               pour mon efficacité, ma polyvalence et la facilité dans nos
               discussions et aussi parce que je fais des incroyables cookies, le
-              secret est d'utiliser beaucoup de beurre demi-sel.
+              secret est d&apos;utiliser beaucoup de beurre demi-sel.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
               La majorité de mon temps libre est consacrée à la musique et à la

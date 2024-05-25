@@ -31,7 +31,7 @@ const AboutMe = () => {
             </p>
 
             <p className="text-[16px] md:text-[19px] text-grey">
-              J'aime passer mon temps libre à écouter des podcasts sur le
+              J&apos;aime passer mon temps libre à écouter des podcasts sur le
               développement personnel, jouer au football, prendre des photos,
               regarder les mauvaises interfaces pour les améliorer, une activité
               passionnante qui me permet de développer ma créativité.
@@ -42,7 +42,7 @@ const AboutMe = () => {
               répondre à vos besoins. Les clients font appels à mes services
               pour mon efficacité, ma polyvalence et la facilité dans nos
               discussions et aussi parce que je fais des incroyables cookies, le
-              secret est d'utiliser beaucoup de beurre demi-sel.
+              secret est d&apos;utiliser beaucoup de beurre demi-sel.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
               <span className="text-white font-semibold">
@@ -52,9 +52,9 @@ const AboutMe = () => {
               né en le 3ème mois.
             </p>
             <p className="text-[16px] md:text-[19px] text-grey">
-              PS. N'oubliez pas que mon courrier E-mail est généralement assez
-              rempli de demandes, donc parfois je peux prendre un peu plus de
-              temps pour vous repondre.
+              PS. N&apos;oubliez pas que mon courrier E-mail est généralement
+              assez rempli de demandes, donc parfois je peux prendre un peu plus
+              de temps pour vous repondre.
             </p>
           </div>
         </div>

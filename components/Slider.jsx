@@ -5,7 +5,7 @@ const Slider = () => {
     <div className="px-0 md:px-5">
       <div className="lg:pb-10 border-x border-[#222222] border-b w-full  2xl:w-[70%] 2xl:mx-auto">
         <h1 className="text-base text-center text-grey py-10">
-          Fier d'avoir travaillé avec:
+          Fier d&apos;avoir travaillé avec:
         </h1>
         <div className="scroller mb-14 lg:my-0">
           <div className="scroller__inner flex flex-nowrap gap-10">
