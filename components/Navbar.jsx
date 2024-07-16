@@ -11,7 +11,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
-      <div className="px-5 py-[11px] flex items-center justify-between ">
+      <div className="px-5 py-5 flex items-center justify-between md:justify-around ">
         <Link href="/" className="flex items-start">
           <p className=" text-[28px] md:text-[21px] font-bold">N. Jean</p>
           <span className=" font-semibold ml-1 text-[9px] py-[1px] px-[4px] rounded border border-[#222222] bg-Lightgrey">

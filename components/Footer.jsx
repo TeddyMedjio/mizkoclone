@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" overflow-hidden">
-      <div className="px-5 py-20 border-x border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
-        <div className=" max-w-96 mb-10 md:mb-0">
+    <footer className=" overflow-hidden ">
+      <div className="px-5 py-10 border-r border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
+        <div className=" max-w-[465px] lg:max-w-96 mb-10 md:mb-0">
           <Link href="/" className="flex items-start">
             <p className=" text-[21px] font-bold">N. Jean</p>
             <span className=" font-semibold ml-1 text-[9px] py-[1px] px-[4px] rounded border border-[#222222] bg-Lightgrey">

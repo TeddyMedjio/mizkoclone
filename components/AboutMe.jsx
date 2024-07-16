@@ -4,7 +4,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="px-0 md:px-5">
-      <div className="pb-10 border-x border-[#222222] border-b 2xl:w-[70%] 2xl:mx-auto">
+      <div className="pb-10 border-x border-[#222222] 2xl:w-[70%] 2xl:mx-auto">
         <div className="relative h-[300px] lg:h-[520px]">
           <Image
             quality={100}

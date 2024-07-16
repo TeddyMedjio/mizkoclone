@@ -1,7 +1,7 @@
 const Citation = () => {
   return (
     <div className="px-0 md:px-5">
-      <div className="py-20 border-x border-[#222222] border-b 2xl:w-[70%] 2xl:mx-auto">
+      <div className="py-20 border-x border-[#222222] 2xl:w-[70%] 2xl:mx-auto">
         <div className="max-w-[900px] mx-auto px-5 lg:px-0 ">
           <h2 className="text-center text-xl md:text-3xl font-heading">
             &quot; Le véritable succès naît de l&apos;harmonie entre le design,
