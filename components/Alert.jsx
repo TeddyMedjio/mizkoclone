@@ -11,6 +11,57 @@ import {
 import { Button } from "../components/ui/button";
 import Image from "next/image";
 
+const logos = [
+  {
+    name: "Figma",
+    icon: "/figma.svg",
+  },
+  {
+    name: "Nextjs",
+    icon: "/nextjs.svg",
+  },
+  {
+    name: "Reactjs",
+    icon: "/react.svg",
+  },
+  {
+    name: "Javascript",
+    icon: "/javascript.svg",
+  },
+  {
+    name: "Tailwindcss",
+    icon: "/tailwind.svg",
+  },
+  {
+    name: "Html",
+    icon: "/html.svg",
+  },
+  {
+    name: "CSS",
+    icon: "/css.svg",
+  },
+  {
+    name: "Vscode",
+    icon: "/vscode.svg",
+  },
+  {
+    name: "Git",
+    icon: "/git.svg",
+  },
+  {
+    name: "Adobe Photoshop",
+    icon: "/photoshop.svg",
+  },
+  {
+    name: "Adobe Illustrator",
+    icon: "/illustrator.svg",
+  },
+  {
+    name: "Adobe Xd",
+    icon: "/xd.svg",
+  },
+];
+
 export function Alert() {
   return (
     <AlertDialog>
@@ -29,84 +80,25 @@ export function Alert() {
           <AlertDialogDescription>
             Un ensemble de compétences de bout en bout pour les développeurs
             ambitieux.
-            <span className="grid grid-cols-4 grid-rows-2 gap-4 mt-10">
-              <span className=" h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/figma.svg"
-                  height={92}
-                  width={92}
-                  alt="logo figma"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/nextjs.svg"
-                  height={92}
-                  width={92}
-                  alt="logo nextjs"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/react.svg"
-                  height={92}
-                  width={92}
-                  alt="logo react"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/javascript.svg"
-                  height={92}
-                  width={92}
-                  alt="logo xd"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/tailwind.svg"
-                  height={92}
-                  width={92}
-                  alt="logo tailwind"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image src="/html.svg" height={92} width={92} alt="logo html" />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image src="/css.svg" height={92} width={92} alt="logo css" />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/vscode.svg"
-                  height={92}
-                  width={92}
-                  alt="logo vscode"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image src="/git.svg" height={92} width={92} alt="logo git" />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/photoshop.svg"
-                  height={92}
-                  width={92}
-                  alt="logo photoshop"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image
-                  src="/illustrator.svg"
-                  height={92}
-                  width={92}
-                  alt="logo illustrator"
-                />
-              </span>
-              <span className="h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg">
-                <Image src="/xd.svg" height={92} width={92} alt="logo xd" />
-              </span>
-            </span>
+            <div className="grid grid-cols-4 grid-rows-2 gap-4 mt-10">
+              {logos.map((item) => (
+                <div
+                  key={item.name}
+                  className=" relative group h-[70px] md:w-[92px] md:h-[92px] bg-[#f1f1f1] flex items-center justify-center rounded-lg"
+                >
+                  <p className="z-50 text-sm text-center text-white font-semibold absolute left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {item.name}
+                  </p>
+                  <div className="absolute w-full h-full top-0 bg-black opacity-0 group-hover:opacity-90 transition-opacity duration-300"></div>
+                  <Image
+                    src={item.icon}
+                    height={92}
+                    width={92}
+                    alt="logo figma"
+                  />
+                </div>
+              ))}
+            </div>
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

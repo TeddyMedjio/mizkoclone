@@ -17,7 +17,7 @@ const AboutMe = () => {
 
         <div className="flex flex-col items-center justify-center px-5 lg:px-0">
           <div className=" flex flex-col max-w-[934px] my-10 space-y-6">
-            <h2 className="text-[34px] md:text-[82px] font-semibold">Hey!</h2>
+            <h2 className="text-[34px] md:text-[82px] font-extralight">Hey!</h2>
             <p className=" text-[16px] md:text-[19px] text-grey">
               Je m&apos;appelle{" "}
               <span className="text-white">Nganmedjio Jean Claude</span> et je
