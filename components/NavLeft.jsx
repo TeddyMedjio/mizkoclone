@@ -21,7 +21,7 @@ const NavLeft = () => {
           </li>
         </ul>
         <p className="rotation text-xs whitespace-nowrap tracking-[4px] text-grey">
-          LETS GO — {new Date().getFullYear()} <span></span>
+          LETS GO — {new Date().getFullYear()}
         </p>
 
         <ul className="grid gap-2">

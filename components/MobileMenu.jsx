@@ -13,7 +13,7 @@ import { Alert } from "./Alert";
 
 const MobileMenu = () => {
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Sheet>
         <SheetTrigger>
           <div className="border border-[#222222] py-2 px-4 rounded-lg">
@@ -24,7 +24,7 @@ const MobileMenu = () => {
           <SheetHeader>
             <SheetTitle>
               <SheetFooter>
-                <ul className="flex flex-col mt-40 space-y-5">
+                <ul className="flex flex-col mt-40 space-y-5  w-full">
                   <SheetClose asChild>
                     <Link href="/">Acceuil</Link>
                   </SheetClose>
@@ -32,15 +32,10 @@ const MobileMenu = () => {
                     <Link href="/about">A Propos</Link>
                   </SheetClose>
                   <SheetClose asChild>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/testimonials">Ténoignages</Link>
                   </SheetClose>
 
-                  <Link
-                    href="https://scarfacedigitalagency.vercel.app/work"
-                    target="blank"
-                  >
-                    Projets
-                  </Link>
+                  <Link href="/projets">Projets</Link>
                 </ul>
               </SheetFooter>
               <div className=" mt-10 space-y-3 flex flex-col items-center justify-center">

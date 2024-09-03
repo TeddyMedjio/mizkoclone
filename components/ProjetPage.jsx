@@ -9,7 +9,7 @@ const ProjetsPage = () => {
       <div className="py-10 border-x border-[#222222] 2xl:w-[70%] 2xl:mx-auto">
         <div className="flex flex-col items-center justify-center px-5 lg:px-0">
           <div className="text-center max-w-2xl">
-            <h2 className="text-[34px] md:text-[82px] font-extralight">
+            <h2 className="text-[34px] md:text-[82px] font-normal">
               Mes Projets
             </h2>
             <p className="text-lg text-grey">
@@ -24,11 +24,7 @@ const ProjetsPage = () => {
                 className="relative h-[300px] lg:h-[513px] rounded border border-[#222222] overflow-hidden"
               >
                 {/* Hover */}
-                <Link
-                  href={item.href}
-                  target="blank"
-                  className="group w-full h-full "
-                >
+                <Link href={item.href} className="group w-full h-full ">
                   <PlusCircleIcon className="z-[51] opacity-0 group-hover:opacity-50 absolute left-1/2 top-1/2 -translate-x-1/2 size-10 text-white transition-opacity duration-300" />
                   <span className="z-50 bg-black absolute top-0 w-full h-full transition-opacity duration-300 opacity-0 group-hover:opacity-30 "></span>
                 </Link>

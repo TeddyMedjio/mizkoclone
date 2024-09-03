@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { href: "/", key: "acceuil", label: "Acceuil" },
   { href: "/about", key: "apropos ", label: "A Propos " },
-  // { href: "#", key: "blog ", label: "Blog " },
+  { href: "/testimonials", key: "testimonial", label: "Témoignage " },
   {
     href: "/projets",
     key: "projets",
@@ -48,7 +48,7 @@ export const work = [
     title: "Veronique Shop",
     service: "Experience Utilisateur, Conception et Design",
     image: "/veronique.jpg",
-    href: "https://www.behance.net/gallery/191858137/Ecommerce",
+    href: "/projets/veronique-shop",
     tools: "Figma & Photoshop",
     Challenge:
       "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
@@ -62,7 +62,7 @@ export const work = [
     title: "Zeelook Shop",
     service: "Experience Utilisateur, Conception et Design",
     image: "/zeelook.jpg",
-    href: "https://www.behance.net/gallery/191340375/zeelook-webdesign-for-ecommerce-glasses",
+    href: "/projets/zeelook",
     tools: "Figma & Photoshop",
     Challenge:
       "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
@@ -76,7 +76,7 @@ export const work = [
     title: "Notaire Riegelova",
     service: "Conception, Design et Developpement",
     image: "/notaire.jpg",
-    href: "https://notary-virid.vercel.app/",
+    href: "/projets/notaire-regielova",
     tools: "Figma, Nextjs & Framer motion",
     Challenge:
       "Notre cliente avait du mal à attirer ses clients en raison d'un site Web obsolète et non attréant qui ne correspondait pas à son identité de marque.",
@@ -87,10 +87,10 @@ export const work = [
   },
   {
     id: "travel-theta",
-    title: "Travel App",
+    title: "Putuk Truno",
     service: "Developpement",
     image: "/travel.jpg",
-    href: "https://travel-theta-three.vercel.app/",
+    href: "/projets/travel-app",
     tools: "Nextjs & Tailwindcss",
     Challenge:
       "Notre client avait du mal à attirer ses clients en raison d'un site Web obsolète et non reactif qui ne correspondait pas à aux exigences du web.",

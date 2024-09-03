@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-import ProjetPage from "./ProjetPage";
 import Footer from "./Footer";
+import ProjetPage from "./ProjetPage";
 
 const ContentProjets = () => {
   return (

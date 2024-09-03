@@ -9,8 +9,8 @@ import { Alert } from "./Alert";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
-      <div className="px-5 py-5 flex items-center justify-between md:justify-around ">
+    <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-[1000]">
+      <div className="px-5 py-5 flex items-center justify-between lg:justify-around ">
         <Link href="/" className="flex items-start">
           <p className=" text-[28px] md:text-[21px] font-bold">N. Jean</p>
           <span className=" font-semibold ml-1 text-[9px] py-[1px] px-[4px] rounded border border-[#222222] bg-Lightgrey">
@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Mobile menu */}
         <MobileMenu />
         {/* Dekstop menu */}
-        <ul className="hidden md:flex gap-6">
+        <ul className="hidden lg:flex gap-6">
           {NAV_LINKS.map((link) => (
             <li
               key={link.key}
@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="hidden space-x-3 md:flex items-center">
+        <div className="hidden space-x-3 lg:flex items-center">
           <Alert />
           <Link
             href="mailto:hello.medjio.me"
