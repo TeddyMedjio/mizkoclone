@@ -1,15 +1,13 @@
 import Navbar from "./Navbar";
-import AboutMe from "./AboutMe";
 import Footer from "./Footer";
+import TestimonialPage from "./TestimonialPage";
 
-const ContentAbout = () => {
+export default function ContentTestimonials() {
   return (
     <div className="w-full">
       <Navbar />
-      <AboutMe />
+      <TestimonialPage />
       <Footer />
     </div>
   );
-};
-
-export default ContentAbout;
+}

@@ -59,6 +59,7 @@ export default function ProjetDetail() {
               src="/notaire.jpg"
               quality={100}
               fill={true}
+              alt="capture image website"
               className="absolute object-cover object-top"
             />
           </div>
@@ -77,8 +78,8 @@ export default function ProjetDetail() {
                   <p className="text-2xl ">Challenge</p>
                   <p className="text-grey leading-7 font-light ">
                     Notre cliente avait du mal à attirer ses clients en raison
-                    d'un site Web obsolète et non attréant qui ne correspondait
-                    pas à son identité de marque.
+                    d&#39;un site Web obsolète et non attréant qui ne
+                    correspondait pas à son identité de marque.
                   </p>
                 </div>
               </div>
@@ -90,7 +91,7 @@ export default function ProjetDetail() {
                     visuellement attrayant qui reflète ma cliente et offre une
                     expérience utilisateur fluide pour que le site Web soit
                     réactif, facile à naviguer et optimisé pour les moteurs de
-                    recherche afin d'améliorer leur visibilité en ligne.
+                    recherche afin d&#39;améliorer leur visibilité en ligne.
                   </p>
                 </div>
               </div>
@@ -98,15 +99,15 @@ export default function ProjetDetail() {
                 <div className="bg-[#0d0d0d] border border-[#222222] p-10 space-y-2 rounded-sm">
                   <p className="text-2xl ">Resultat</p>
                   <p className="text-grey leading-7 font-light">
-                    J'ai mis en place une conception de site Web personnalisée
-                    qui était non seulement visuellement époustouflante, mais
-                    également conviviale et optimisée pour les moteurs de
-                    recherche. Le site Web de ma cliente présente désormais ses
-                    services de manière professionnelle et attrayante, et a
-                    connu une augmentation significative du trafic organique et
-                    de l'engagement des clients. Ma cliente est ravie du
-                    résultat final et a reçu des retours positifs de ses
-                    clients.
+                    J&#39;ai mis en place une conception de site Web
+                    personnalisée qui était non seulement visuellement
+                    époustouflante, mais également conviviale et optimisée pour
+                    les moteurs de recherche. Le site Web de ma cliente présente
+                    désormais ses services de manière professionnelle et
+                    attrayante, et a connu une augmentation significative du
+                    trafic organique et de l&#39;engagement des clients. Ma
+                    cliente est ravie du résultat final et a reçu des retours
+                    positifs de ses clients.
                   </p>
                 </div>
               </div>

@@ -59,6 +59,7 @@ export default function ProjetZeelook() {
               src="/zeelook.jpg"
               quality={100}
               fill={true}
+              alt="capture image website"
               className="absolute object-cover object-top"
             />
           </div>
@@ -77,8 +78,8 @@ export default function ProjetZeelook() {
                   <p className="text-2xl ">Challenge</p>
                   <p className="text-grey leading-7 font-light ">
                     Notre client avait du mal à attirer et à fidéliser ses
-                    clients en raison d'un site Web obsolète et non réactif qui
-                    ne correspondait pas à son identité de marque.
+                    clients en raison d&#39;un site Web obsolète et non réactif
+                    qui ne correspondait pas à son identité de marque.
                   </p>
                 </div>
               </div>
@@ -90,7 +91,7 @@ export default function ProjetZeelook() {
                     visuellement attrayant qui reflète la marque du client et
                     offre une expérience utilisateur fluide pour que le site Web
                     soit réactif, facile à naviguer et optimisé pour les moteurs
-                    de recherche afin d'améliorer leur visibilité en ligne.
+                    de recherche afin d&#39;améliorer leur visibilité en ligne.
                   </p>
                 </div>
               </div>
@@ -98,15 +99,15 @@ export default function ProjetZeelook() {
                 <div className="bg-[#0d0d0d] border border-[#222222] p-10 space-y-2 rounded-sm">
                   <p className="text-2xl ">Resultat</p>
                   <p className="text-grey leading-7 font-light">
-                    J'ai développé une conception de site Web personnalisée qui
-                    était non seulement visuellement époustouflante, mais
+                    J&#39;ai développé une conception de site Web personnalisée
+                    qui était non seulement visuellement époustouflante, mais
                     également conviviale et optimisée pour les moteurs de
                     recherche. Le site Web du client présente désormais ses
                     produits et services de manière professionnelle et
                     attrayante, et a connu une augmentation significative du
-                    trafic organique et de l'engagement des clients. Le client
-                    est ravi du résultat final et a reçu des retours positifs de
-                    ses clients.
+                    trafic organique et de l&#39;engagement des clients. Le
+                    client est ravi du résultat final et a reçu des retours
+                    positifs de ses clients.
                   </p>
                 </div>
               </div>
