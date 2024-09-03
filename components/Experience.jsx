@@ -1,5 +1,4 @@
 import { SKILL } from "../constants";
-import Image from "next/image";
 
 const Experience = () => {
   return (

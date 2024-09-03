@@ -23,7 +23,7 @@ const Wrapper = () => {
               Me contacter
             </Link>
             <div className="flex items-center gap-2">
-              <span className=" h-[10px] w-[10px] bg-green-600 border-2 border-green-950 rounded-full"></span>
+              <span className=" animate-pulse h-[15px] w-[15px] bg-green-600 border-2 border-green-950 rounded-full"></span>
               <p className=" text-sm text-grey">
                 Disponible pour des opportunités et contrats.
               </p>
