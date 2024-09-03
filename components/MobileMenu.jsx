@@ -31,9 +31,9 @@ const MobileMenu = () => {
                   <SheetClose asChild>
                     <Link href="/about">A Propos</Link>
                   </SheetClose>
-                  <SheetClose asChild>
+                  {/* <SheetClose asChild>
                     <Link href="/testimonials">Ténoignages</Link>
-                  </SheetClose>
+                  </SheetClose> */}
 
                   <Link href="/projets">Projets</Link>
                 </ul>

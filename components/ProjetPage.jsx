@@ -38,10 +38,12 @@ const ProjetsPage = () => {
                   </p>
                 </div>
                 <div className=" z-40 absolute w-[95%] bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-7 border  backdrop-blur-sm bg-black/40 border-[#222222] overflow-hidden rounded"></div>
-                <div>
+                <div className="relative w-full h-full">
                   <Image
                     src={item.image}
                     fill={true}
+                    sizes="300px"
+                    alt={`image ${item.title}`}
                     className="absolute object-cover "
                   />
                 </div>
