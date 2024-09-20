@@ -44,12 +44,12 @@ export const SKILL = [
 // competences
 export const work = [
   {
-    id: "veronique-shop",
-    title: "Veronique Shop",
+    id: "e.shop",
+    title: "Ecommerce Shop",
     service: "Experience Utilisateur, Conception et Design",
-    image: "/veronique.jpg",
-    href: "/projets/veronique-shop",
-    tools: "Figma & Photoshop",
+    image: "/eshop.jpg",
+    href: "/projets/eshop",
+    tools: "Figma, Photoshop & Nextjs",
     Challenge:
       "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
     Objectif:

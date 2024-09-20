@@ -9,12 +9,10 @@ export default function ProjetShop() {
         <div className="flex flex-col items-center justify-center px-5 lg:px-0">
           {/* TITRE */}
           <div className="text-center max-w-2xl">
-            <h2 className="text-[34px] md:text-[82px] font-normal">
-              Veronique Shop
-            </h2>
+            <h2 className="text-[34px] md:text-[82px] font-normal">E.Shop</h2>
             <p className="text-lg text-grey">
-              Webdesign moderne et visuellement attrayant qui reflète la marque
-              du client.
+              Webdesign moderne et visuellement attrayant avec une integration
+              web fidèle à la maquette.
             </p>
           </div>
 
@@ -22,9 +20,7 @@ export default function ProjetShop() {
           <div className="w-full lg:w-[70%] grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-4 my-10">
             <div className="text-center bg-[#0d0d0d] border border-[#222222] py-3 space-y-2 rounded-sm">
               <p className="uppercase text-sm text-[#525252]">Client</p>
-              <p className="uppercase text-sm font-medium text-grey">
-                Veronique Shop
-              </p>
+              <p className="uppercase text-sm font-medium text-grey">E.Shop</p>
             </div>
             <div className="text-center bg-[#0d0d0d] border border-[#222222] py-3 space-y-2 rounded-sm">
               <p className="uppercase text-sm text-[#525252]">Durée</p>
@@ -35,18 +31,18 @@ export default function ProjetShop() {
             <div className="text-center bg-[#0d0d0d] border border-[#222222] py-3 space-y-2 rounded-sm">
               <p className="uppercase text-sm text-[#525252]">Services</p>
               <p className="uppercase text-sm font-medium text-grey">
-                UX/UI Design & Conception
+                UX/UI Design & Integration
               </p>
             </div>
             <div className="text-center bg-[#0d0d0d] border border-[#222222] py-3 space-y-2 rounded-sm">
               <p className="uppercase text-sm text-[#525252]">Lien</p>
               <p className="uppercase text-sm font-medium text-grey">
                 <Link
-                  href="https://www.behance.net/gallery/191858137/Ecommerce"
+                  href="https://eshop-taupe-eta.vercel.app/"
                   target="_blank"
                   className="flex items-center justify-center group"
                 >
-                  behance
+                  www.eshop.com
                   <ArrowRightIcon className="size-4 transition-transform duration-300 translate-x-1 group-hover:translate-x-2" />
                 </Link>
               </p>
@@ -56,7 +52,7 @@ export default function ProjetShop() {
           {/* IMAGE */}
           <div className="relative w-full lg:w-[90%] h-[300px] md:h-[500px] lg:h-[707px] border border-[#222222] overflow-hidden rounded-sm ">
             <Image
-              src="/veronique.jpg"
+              src="/eshop.jpg"
               quality={100}
               fill={true}
               alt="capture image website"
@@ -69,7 +65,7 @@ export default function ProjetShop() {
             <div className="text-center lg:text-left lg:max-w-[350px] space-y-4 mb-5 lg:mb-0">
               <p className="uppercase  text-grey">client</p>
               <p className="text-4xl font-light leading-tight">
-                Conception & Design
+                Conception, Design & Integration web.
               </p>
             </div>
             <div className="w-full lg:w-[50%] flex flex-col gap-4">
