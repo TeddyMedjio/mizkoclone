@@ -18,7 +18,7 @@ const ProjetsPage = () => {
           <div className=" w-[95%] grid grid-cols-1 md:grid-cols-2 mt-20 gap-5 lg:gap-10">
             {work.map((item) => (
               <ProjectProfil
-                key={Math.random()}
+                key={item.id}
                 link={`/projets/${item.slug}`}
                 title={item.title}
                 service={item.service}

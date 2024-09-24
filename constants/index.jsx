@@ -44,6 +44,7 @@ export const SKILL = [
 // competences
 export const work = [
   {
+    id: 1,
     slug: "eshop",
     title: "E.Shop",
     description:
@@ -62,6 +63,7 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
+    id: 2,
     slug: "zelook-shop",
     title: "Zeelook Shop",
     description:
@@ -80,6 +82,7 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
+    id: 3,
     slug: "notaire-riegelova",
     title: "Notaire Riegelova",
     description:
@@ -97,6 +100,7 @@ export const work = [
       "J'ai mis en place une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web de ma cliente présente désormais ses services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Ma cliente est ravie du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
+    id: 4,
     slug: "travel-theta",
     title: "Putuk Truno",
     description:
