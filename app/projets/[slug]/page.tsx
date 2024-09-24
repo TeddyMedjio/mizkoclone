@@ -10,9 +10,9 @@ export default async function page({ params }: { params: { slug: string } }) {
     return <p>Projet Not Found</p>;
   }
   return (
-    <div className="px-0 md:px-5">
+    <div className="px-0 md:px-5 ">
       <div className="py-10 border-x border-[#222222] 2xl:w-[70%] 2xl:mx-auto">
-        <div className="flex flex-col items-center justify-center px-5 lg:px-0">
+        <div className="w-full flex flex-col items-center justify-center px-5 lg:px-0 ">
           {/* TITRE */}
           <div className="text-center max-w-2xl">
             <h2 className="text-[34px] md:text-[82px] font-normal">
@@ -22,7 +22,7 @@ export default async function page({ params }: { params: { slug: string } }) {
           </div>
 
           {/* INDICATIFS */}
-          <div className="w-full lg:w-[70%] grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-4 my-10">
+          <div className="w-full lg:w-[70%] grid grid-cols-1 lg:grid-cols-4 items-center justify-center gap-4 my-10 ">
             <div className="text-center bg-[#0d0d0d] border border-[#222222] py-3 space-y-2 rounded-sm">
               <p className="uppercase text-sm text-[#525252]">Client</p>
               <p className="uppercase text-sm font-medium text-grey">
