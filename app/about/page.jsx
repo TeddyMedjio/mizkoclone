@@ -1,17 +1,11 @@
-import ContentAbout from "../../components/ContentAbout";
-import NavLeft from "../../components/NavLeft";
+import AboutMe from "../../components/AboutMe";
 
 export const metadata = {
   title: "About",
 };
 
 const page = () => {
-  return (
-    <div className="flex">
-      <NavLeft />
-      <ContentAbout />
-    </div>
-  );
+  return <AboutMe />;
 };
 
 export default page;

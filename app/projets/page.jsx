@@ -1,17 +1,11 @@
-import NavLeft from "../../components/NavLeft";
-import ContentProjets from "../../components/ContentProjets";
+import ProjetsPage from "../../components/ProjetPage";
 
 export const metadata = {
   title: "Mes Realisations",
 };
 
 const page = () => {
-  return (
-    <div className="flex">
-      <NavLeft />
-      <ContentProjets />
-    </div>
-  );
+  return <ProjetsPage />;
 };
 
 export default page;

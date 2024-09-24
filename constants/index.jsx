@@ -44,12 +44,16 @@ export const SKILL = [
 // competences
 export const work = [
   {
-    id: "e.shop",
-    title: "Ecommerce Shop",
+    slug: "eshop",
+    title: "E.Shop",
+    description:
+      "Website Ecommerce avec un design visuellement attrayant et moderne",
+    duree: "3 semaines",
+    lienExterne: "https://eshop-taupe-eta.vercel.app/",
     service: "Experience Utilisateur, Conception et Design",
     image: "/eshop.jpg",
-    href: "/projets/eshop",
     tools: "Figma, Photoshop & Nextjs",
+
     Challenge:
       "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
     Objectif:
@@ -58,11 +62,15 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: "zelook-shop",
+    slug: "zelook-shop",
     title: "Zeelook Shop",
-    service: "Experience Utilisateur, Conception et Design",
+    description:
+      "Webdesign moderne et visuellement attrayant qui reflète la marque du client",
+    duree: "2 semaines",
+    lienExterne:
+      "https://www.behance.net/gallery/191340375/zeelook-webdesign-for-ecommerce-glasses",
+    service: "Conception & Design",
     image: "/zeelook.jpg",
-    href: "/projets/zeelook",
     tools: "Figma & Photoshop",
     Challenge:
       "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
@@ -72,12 +80,15 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: "notaire-riegelova",
+    slug: "notaire-riegelova",
     title: "Notaire Riegelova",
+    description:
+      "Site Web moderne et visuellement attrayant qui reflète la marque du client.",
+    duree: "2 semaines",
+    lienExterne: "https://notary-virid.vercel.app/",
     service: "Conception, Design et Developpement",
     image: "/notaire.jpg",
-    href: "/projets/notaire-regielova",
-    tools: "Figma, Nextjs & Framer motion",
+    tools: "Figma, Nextjs & Framer",
     Challenge:
       "Notre cliente avait du mal à attirer ses clients en raison d'un site Web obsolète et non attréant qui ne correspondait pas à son identité de marque.",
     Objectif:
@@ -86,11 +97,14 @@ export const work = [
       "J'ai mis en place une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web de ma cliente présente désormais ses services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Ma cliente est ravie du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: "travel-theta",
+    slug: "travel-theta",
     title: "Putuk Truno",
-    service: "Developpement",
+    description:
+      "Site Web moderne et visuellement attrayant qui reflète la marque du client.",
+    duree: "3 semaines",
+    lienExterne: "https://travel-theta-three.vercel.app/",
+    service: "SEO et Developpement Web",
     image: "/travel.jpg",
-    href: "/projets/travel-app",
     tools: "Nextjs & Tailwindcss",
     Challenge:
       "Notre client avait du mal à attirer ses clients en raison d'un site Web obsolète et non reactif qui ne correspondait pas à aux exigences du web.",

@@ -1,5 +1,8 @@
 import { GeistSans } from "geist/font/sans";
 import "../styles/globals.css";
+import NavLeft from "../components/NavLeft";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: {
@@ -52,7 +55,14 @@ export default function RootLayout({ children }) {
       <meta name="twitter:author" content="@Nganmedjio_jean" />
       <meta name="twitter:site" content="@Nganmedjio_jean" />
 
-      <body className={`${GeistSans.className} antialiased`}>{children}</body>
+      <body className={`${GeistSans.className} antialiased flex`}>
+        <NavLeft />
+        <div className="w-full">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
