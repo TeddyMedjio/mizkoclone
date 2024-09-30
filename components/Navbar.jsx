@@ -1,10 +1,10 @@
 "use client";
 
-import { NAV_LINKS } from "../constants";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import MobileMenu from "./MobileMenu";
 import { Alert } from "./Alert";
+import { NAV_LINKS } from "../constants";
 
 const Navbar = () => {
   const pathname = usePathname();

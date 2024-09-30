@@ -1,4 +1,5 @@
 import Image from "next/image";
+import InfiniteSlider from "./InfiniteSlider";
 
 const Slider = () => {
   return (
@@ -7,103 +8,8 @@ const Slider = () => {
         <h1 className="text-base text-center text-grey py-10">
           Fier d&apos;avoir travaillé avec:
         </h1>
-        <div className="scroller mb-14 lg:my-0">
-          <div className="scroller__inner flex flex-nowrap gap-10">
-            <Image
-              src="/challenge.svg"
-              height={150}
-              width={150}
-              alt="logo challenge"
-            />
-            <Image
-              src="/marketing.svg"
-              height={58}
-              width={99}
-              alt="logo marketing"
-            />
-            <Image
-              src="/laravelshopper.svg"
-              height={240}
-              width={150}
-              alt="logo laravelshopper"
-            />
-            <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
-            <Image
-              src="/laravelCameroon.svg"
-              height={50}
-              width={50}
-              alt="logo laravelcameroon"
-            />
-            <Image
-              src="/challenge.svg"
-              height={150}
-              width={150}
-              alt="logo challenge"
-            />
-            <Image
-              src="/marketing.svg"
-              height={58}
-              width={99}
-              alt="logo marketing"
-            />
-            <Image
-              src="/laravelshopper.svg"
-              height={150}
-              width={150}
-              alt="logo laravelshopper"
-            />
-            <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
-            <Image
-              src="/laravelCameroon.svg"
-              height={50}
-              width={50}
-              alt="logo laravelcameroon"
-            />
-            <Image
-              src="/challenge.svg"
-              height={150}
-              width={150}
-              alt="logo challenge"
-            />
-            <Image
-              src="/marketing.svg"
-              height={58}
-              width={99}
-              alt="logo marketing"
-            />
-            <Image
-              src="/finsura.svg"
-              height={150}
-              width={150}
-              alt="logo finsura"
-            />
-            <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
-            <Image
-              src="/laravelCameroon.svg"
-              height={50}
-              width={50}
-              alt="logo laravelcameroon"
-            />
-            <Image
-              src="/challenge.svg"
-              height={150}
-              width={150}
-              alt="logo challenge"
-            />
-            <Image
-              src="/marketing.svg"
-              height={58}
-              width={99}
-              alt="logo marketing"
-            />
-            <Image
-              src="/laravelshopper.svg"
-              height={150}
-              width={150}
-              alt="logo laravelshopper"
-            />
-            <Image src="/zuhe.svg" height={150} width={150} alt="logo zuhe" />
-          </div>
+        <div className="mb-14 lg:my-0">
+          <InfiniteSlider />
         </div>
       </div>
     </div>

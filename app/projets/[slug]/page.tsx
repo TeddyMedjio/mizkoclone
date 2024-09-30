@@ -4,8 +4,7 @@ import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 
 export default async function page({ params }: { params: { slug: string } }) {
-  const data = work;
-  const projects = data.find((x) => x.slug === params.slug);
+  const projects = work.find((x) => x.slug === params.slug);
   if (!projects) {
     return <p>Projet Not Found</p>;
   }

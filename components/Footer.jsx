@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" overflow-hidden ">
+    <footer className="overflow-hidden bg-black ">
       <div className="px-5 py-10 border-r border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
         <div className=" max-w-[465px] lg:max-w-96 mb-10 md:mb-0">
           <Link href="/" className="flex items-start">

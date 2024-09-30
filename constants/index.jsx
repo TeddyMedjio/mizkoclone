@@ -51,7 +51,7 @@ export const work = [
       "Website Ecommerce avec un design visuellement attrayant et moderne",
     duree: "3 semaines",
     lienExterne: "https://eshop-taupe-eta.vercel.app/",
-    service: "Experience Utilisateur, Conception et Design",
+    service: "Design et Developpement",
     image: "/eshop.jpg",
     tools: "Figma, Photoshop & Nextjs",
 
