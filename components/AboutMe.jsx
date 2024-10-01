@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="px-0 md:px-5">
       <div
         // style={{ backgroundImage: "/background.webp" }}
-        className="relative flex items-center justify-center lg:items-start lg:justify-between  border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide  "
+        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-44  "
       >
         <div className="fixed -z-50 h-full w-full">
           <Image
@@ -20,9 +20,25 @@ const AboutMe = () => {
           />
         </div>
 
-        <div className="hidden lg:block h-20 w-20"></div>
+        {/* playlists */}
+        <div className="hidden md:block lg:sticky lg:top-10 lg:ml-5 p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full lg:w-[40%]">
+          <h2 className="text-base font-bold text-center">Ma Playlist.</h2>
+          <p className="  text-sm text-center px-14 text-grey pt-2 py-4">
+            Quand je suis entrain de travailler j&apos;ecoute de la musique pour
+            plus de concentration; Oui😊 j'aime la bonne{" "}
+            <span className="text-white">musique camerounaise</span>.
+          </p>
+          <iframe
+            className=" rounded-[12px] w-[100%] md:h-[352px]"
+            src="https://open.spotify.com/embed/playlist/0NrauiChQBnhR3j8VsOSFO?utm_source=generator&theme=0"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
         <div>
-          <div className=" px-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] mt-10 mr-0 lg:mr-5 backdrop-blur-sm ">
+          <div className=" px-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px]  md:mt-10 mr-0 lg:mr-5 backdrop-blur-sm ">
             <div className=" flex flex-col max-w-[934px] my-10 space-y-6 md:px-10">
               <h2 className="text-[34px] md:text-[82px] font-normal">Hey!</h2>
               <p className=" text-[16px] md:text-[19px] text-grey">
@@ -60,7 +76,54 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          <ul className="hidden md:flex my-10  items-center justify-between flex-wrap gap-4 max-w-[750px]">
+          {/* Experiences */}
+          <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 mr-0 lg:mr-5 backdrop-blur-sm mt-5 ">
+            <h2 className="text-[16px] md:text-[19px] font-medium text-center mt-8">
+              Experiences
+            </h2>
+            <div className="px-10 w-full">
+              <div className="flex items-center justify-between w-full">
+                <p className=" text-base md:text-[19px]">
+                  Konrad Technologies{" "}
+                  <span className="text-grey text-sm md:block">
+                    Graphic Designer
+                  </span>
+                </p>
+                <p className="text-grey text-sm">Mar.2016 - Oct.2018</p>
+              </div>
+              <div className="bg-[#222222] w-full h-[1px] my-5" />
+              <div className="flex items-center justify-between w-full">
+                <p className=" text-base md:text-[19px]">
+                  InterSystems{" "}
+                  <span className="text-grey text-sm md:block">
+                    Visual Designer
+                  </span>
+                </p>
+                <p className="text-grey text-sm">Jui.2018 - Sep.2019</p>
+              </div>
+              <div className="bg-[#222222] w-full h-[1px] my-5" />
+              <div className="flex items-center justify-between w-full">
+                <p className=" text-base md:text-[19px]">
+                  Wise Computers
+                  <span className="text-grey text-sm md:block">
+                    Graphic & UX/UI Designer
+                  </span>
+                </p>
+                <p className="text-grey text-sm">Jui.2019 - Nov.2022</p>
+              </div>
+              <div className="bg-[#222222] w-full h-[1px] my-5" />
+              <div className="flex items-center justify-between w-full">
+                <p className=" text-base md:text-[19px]">
+                  Freelancer
+                  <span className="text-grey text-sm md:block">
+                    Disponible pour contrats
+                  </span>
+                </p>
+                <p className="text-grey text-sm">Nov.2022 - Aujourd&apos;hui</p>
+              </div>
+            </div>
+          </div>
+          <ul className="hidden md:flex my-5  items-center justify-between flex-wrap gap-4 max-w-[750px]">
             <li className="flex items-center justify-between p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-[30%]">
               <Link
                 href="https://www.instagram.com/nganme_jean/"

@@ -5,7 +5,7 @@ const Citation = () => {
         <div className="max-w-[900px] mx-auto px-5 lg:px-0 ">
           <h2 className="text-center text-xl md:text-3xl font-heading">
             &quot; Le véritable succès naît de l&apos;harmonie entre le design,
-            les affaires et la promotion : cela ressemble à un orchestre complet
+            les affaires et la promotion: cela ressemble à un orchestre complet
             plutôt qu’à une performance solo. Pour atteindre l&apos;excellence,
             il est essentiel de maîtriser l&apos;équilibre de ces éléments clés
             afin de produire des résultats qui sortent de l&apos;ordinaire.

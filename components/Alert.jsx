@@ -29,35 +29,43 @@ const logos = [
     icon: "/javascript.svg",
   },
   {
+    name: "Typescript",
+    icon: "/typescript.svg",
+  },
+  {
+    name: "prisma",
+    icon: "/prisma.svg",
+  },
+  {
+    name: "Sanity",
+    icon: "/sanity.svg",
+  },
+  {
     name: "Tailwindcss",
     icon: "/tailwind.svg",
   },
   {
-    name: "Html",
-    icon: "/html.svg",
-  },
-  {
-    name: "CSS",
-    icon: "/css.svg",
+    name: "Githup",
+    icon: "/git.svg",
   },
   {
     name: "Vscode",
     icon: "/vscode.svg",
   },
   {
-    name: "Git",
-    icon: "/git.svg",
+    name: "Framer motion",
+    icon: "/framer.svg",
   },
   {
     name: "Adobe Photoshop",
     icon: "/photoshop.svg",
   },
   {
-    name: "Adobe Illustrator",
+    name: "Adobe Ilustrator",
     icon: "/illustrator.svg",
   },
   {
-    name: "Adobe Xd",
+    name: "Adobe XD",
     icon: "/xd.svg",
   },
 ];
