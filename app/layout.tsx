@@ -22,59 +22,49 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="author" content="Nganmedjio Jean Claude" />
+      {/* <!-- HTML Meta Tags --> */}
+      <title>
+        UX/UI designer & Frontend and i am accessible everywhere in the world
+      </title>
       <meta
-        property="og:title"
-        content="UX/UI designer & Frontend dev based in Cameroon"
+        name="description"
+        content="UX/UI designer & Frontend and i am accessible everywhere in the world"
       />
-      <meta
-        name="og:description"
-        content="Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential."
-      />
-      <meta
-        property="og:image"
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899357/qvdstxpszkesyfgwlaua.jpg"
-      />
-      <meta property="og:site_name" content="Medjio" />
-      <meta property="og:locale" content="en" />
+
+      {/* <!-- Facebook Meta Tags --> */}
+      <meta property="og:url" content="https://medjio.me" />
       <meta property="og:type" content="website" />
       <meta
-        property="twitter:title"
-        content="UX/UI designer & Frontend and i am accessible everywhere in
-        the world"
-      />
-      <meta
-        property="twitter:description"
-        content="Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential."
-      />
-      <meta
-        property="twitter:image"
-        content="https://res.cloudinary.com/dqp4tvy3d/image/upload/v1727740995/twitter_og_pa45gc.jpg"
-      />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="keywords"
-        content="Medjio, ux designer, ui designer, web developer, Next.Js, React.js, Front-end, Visual designer, JavaScript, UX.designer, Tailwind CSS, Graphic.designer, freelancer"
-      />
-
-      <meta name="twitter:author" content="@Nganmedjio_jean" />
-      <meta name="twitter:site" content="@Nganmedjio_jean" />
-
-      <meta
         property="og:title"
-        content="UX/UI designer & Frontend and i am accessible everywhere in
-        the world"
+        content="UX/UI designer & Frontend and i am accessible everywhere in the world"
       />
       <meta
         property="og:description"
-        content="UX/UI designer & Frontend and i am accessible everywhere in
-        the world"
+        content="UX/UI designer & Frontend and i am accessible everywhere in the world"
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/dqp4tvy3d/image/upload/v1727740995/linkedin_og_et2szl.jpg"
+        content="https://opengraph.b-cdn.net/production/images/8de4980a-58dd-4905-b1b3-a2803eb0df84.jpg?token=ys4YGJV7wRsN84L6b_bZL965Hkzisr6dMxkSDgWtA3A&height=630&width=1200&expires=33263780076"
       />
-      <meta property="og:url" content="https://www.medjio.me/" />
 
+      {/* <!-- Twitter Meta Tags --> */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="medjio.me" />
+      <meta property="twitter:url" content="https://medjio.me" />
+      <meta
+        name="twitter:title"
+        content="UX/UI designer & Frontend and i am accessible everywhere in the world"
+      />
+      <meta
+        name="twitter:description"
+        content="UX/UI designer & Frontend and i am accessible everywhere in the world"
+      />
+      <meta
+        name="twitter:image"
+        content="https://opengraph.b-cdn.net/production/images/8de4980a-58dd-4905-b1b3-a2803eb0df84.jpg?token=ys4YGJV7wRsN84L6b_bZL965Hkzisr6dMxkSDgWtA3A&height=630&width=1200&expires=33263780076"
+      />
+
+      {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
       <body className={`${GeistSans.className} antialiased flex `}>
         <NavLeft />
         <div className="w-full overflow-x-hidden">
