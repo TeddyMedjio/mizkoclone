@@ -2,6 +2,10 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { TextGenerateEffect } from "../components/ui/text-generate-effetct";
+
+const paragraph =
+  "Quand je suis entrain de travailler j'ecoute de la musique pour plus de concentration; Oui😊 j'aime la bonne musique camerounaise.";
 
 const AboutMe = () => {
   return (
@@ -22,14 +26,15 @@ const AboutMe = () => {
 
         {/* playlists */}
         <div className="hidden md:block lg:sticky lg:top-10 lg:ml-5 p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full lg:w-[40%]">
-          <h2 className="text-base font-bold text-center">Ma Playlist.</h2>
-          <p className="  text-sm text-center px-14 text-grey pt-2 py-4">
+          <h2 className="text-base font-bold text-center mb-3">Ma Playlist.</h2>
+          <TextGenerateEffect words={paragraph} />
+          {/* <p className="  text-sm text-center px-14 text-grey pt-2 py-4">
             Quand je suis entrain de travailler j&apos;ecoute de la musique pour
             plus de concentration; Oui😊 j&lsquo;aime la bonne{" "}
             <span className="text-white">musique camerounaise</span>.
-          </p>
+          </p> */}
           <iframe
-            className=" rounded-[12px] w-[100%] md:h-[352px]"
+            className=" rounded-[12px] w-[100%] md:h-[352px] mt-5"
             src="https://open.spotify.com/embed/playlist/0NrauiChQBnhR3j8VsOSFO?utm_source=generator&theme=0"
             frameBorder="0"
             allowfullscreen=""
@@ -42,8 +47,8 @@ const AboutMe = () => {
             <div className=" flex flex-col max-w-[934px] my-10 space-y-6 md:px-10">
               <h2 className="text-[34px] md:text-[82px] font-normal">Hey!</h2>
               <p className=" text-[16px] md:text-[19px] text-grey">
-                Je m&apos;appelle{" "}
-                <span className="text-white">Nganmedjio Jean Claude</span>, je
+                Je m&apos;appelle
+                <span className="text-white"> Nganmedjio Jean Claude</span>, je
                 suis un webdesigner et frontend dev, j&apos;aime collaborer avec
                 des personnes qui attachent de l&apos;importance à
                 l&apos;esthétique, qui comprennent{" "}
@@ -78,7 +83,7 @@ const AboutMe = () => {
           </div>
           {/* Experiences */}
           <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 mr-0 lg:mr-5 backdrop-blur-sm mt-5 ">
-            <h2 className="text-[16px] md:text-[19px] font-medium text-center mt-8">
+            <h2 className="text-[16px] md:text-3xl font-medium text-center mt-8">
               Experiences
             </h2>
             <div className="px-10 w-full">
