@@ -12,7 +12,7 @@ const AboutMe = () => {
     <div className="px-0 md:px-5">
       <div
         // style={{ backgroundImage: "/background.webp" }}
-        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-44  "
+        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-44 md:pb-72 lg:pb-0"
       >
         <div className="fixed -z-50 h-full w-full">
           <Image
@@ -25,14 +25,11 @@ const AboutMe = () => {
         </div>
 
         {/* playlists */}
-        <div className="hidden md:block lg:sticky lg:top-10 lg:ml-5 p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full lg:w-[40%]">
-          <h2 className="text-base font-bold text-center mb-3">Ma Playlist.</h2>
+        <div className="hidden lg:block lg:sticky lg:top-10 lg:ml-5 p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full lg:w-[40%]">
+          <h2 className="text-[19px] font-bold text-center mb-2">
+            Ma Playlist.
+          </h2>
           <TextGenerateEffect words={paragraph} />
-          {/* <p className="  text-sm text-center px-14 text-grey pt-2 py-4">
-            Quand je suis entrain de travailler j&apos;ecoute de la musique pour
-            plus de concentration; Oui😊 j&lsquo;aime la bonne{" "}
-            <span className="text-white">musique camerounaise</span>.
-          </p> */}
           <iframe
             className=" rounded-[12px] w-[100%] md:h-[352px] mt-5"
             src="https://open.spotify.com/embed/playlist/0NrauiChQBnhR3j8VsOSFO?utm_source=generator&theme=0"
@@ -82,13 +79,13 @@ const AboutMe = () => {
             </div>
           </div>
           {/* Experiences */}
-          <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 mr-0 lg:mr-5 backdrop-blur-sm mt-5 ">
+          <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 mr-0 lg:mr-5 backdrop-blur-sm mt-5 mb-72 md:mb-0 ">
             <h2 className="text-[16px] md:text-3xl font-medium text-center mt-8">
               Experiences
             </h2>
-            <div className="px-10 w-full">
+            <div className="px-3 md:px-10 w-full">
               <div className="flex items-center justify-between w-full">
-                <p className=" text-base md:text-[19px]">
+                <p className="flex flex-col text-base md:text-[19px]">
                   Konrad Technologies{" "}
                   <span className="text-grey text-sm md:block">
                     Graphic Designer
@@ -98,7 +95,7 @@ const AboutMe = () => {
               </div>
               <div className="bg-[#222222] w-full h-[1px] my-5" />
               <div className="flex items-center justify-between w-full">
-                <p className=" text-base md:text-[19px]">
+                <p className="flex flex-col text-base md:text-[19px]">
                   InterSystems{" "}
                   <span className="text-grey text-sm md:block">
                     Visual Designer
@@ -108,7 +105,7 @@ const AboutMe = () => {
               </div>
               <div className="bg-[#222222] w-full h-[1px] my-5" />
               <div className="flex items-center justify-between w-full">
-                <p className=" text-base md:text-[19px]">
+                <p className="flex flex-col text-base md:text-[19px]">
                   Wise Computers
                   <span className="text-grey text-sm md:block">
                     Graphic & UX/UI Designer
@@ -118,10 +115,10 @@ const AboutMe = () => {
               </div>
               <div className="bg-[#222222] w-full h-[1px] my-5" />
               <div className="flex items-center justify-between w-full">
-                <p className=" text-base md:text-[19px]">
+                <p className="flex flex-col text-base md:text-[19px]">
                   Freelancer
-                  <span className="text-grey text-sm md:block">
-                    Disponible pour contrats
+                  <span className="text-grey text-sm md:block ">
+                    Disponible
                   </span>
                 </p>
                 <p className="text-grey text-sm">Nov.2022 - Aujourd&apos;hui</p>
