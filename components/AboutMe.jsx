@@ -25,7 +25,7 @@ const AboutMe = () => {
           <h2 className="text-base font-bold text-center">Ma Playlist.</h2>
           <p className="  text-sm text-center px-14 text-grey pt-2 py-4">
             Quand je suis entrain de travailler j&apos;ecoute de la musique pour
-            plus de concentration; Oui😊 j'aime la bonne{" "}
+            plus de concentration; Oui😊 j&lsquo;aime la bonne{" "}
             <span className="text-white">musique camerounaise</span>.
           </p>
           <iframe
