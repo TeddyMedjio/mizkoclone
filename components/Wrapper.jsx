@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Cover } from "./ui/cover";
 
 const Wrapper = () => {
   return (
@@ -7,8 +8,8 @@ const Wrapper = () => {
       <div className=" border-x border-[#222222] border-b lg:h-screen lg:flex items-center justify-center w-full 2xl:h-[766px] 2xl:w-[70%] 2xl:mx-auto ">
         {/* text left */}
         <div className="px-5 md:px-9 md:py-20 lg:py-0 w-full lg:w-1/2 space-y-5 lg:space-y-10">
-          <h1 className="pt-16 lg:pt-0 text-[32px] md:text-[76px] font-bold leading-[40px] md:leading-[80px]">
-            Designer Freelance & Frontend dev
+          <h1 className="pt-16 lg:pt-0 text-[32px] md:text-[76px] font-bold leading-[40px] md:leading-[80px] ">
+            Designer Freelance & <Cover>Frontend dev</Cover>
           </h1>
           <p className=" font-normal text-base md:text-lg text-grey leading-[26px] md:line-clamp-none">
             Un site web complet du concept à la réalisation, c&apos;est ce qui

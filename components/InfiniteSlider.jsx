@@ -24,9 +24,6 @@ export default function InfiniteSlider() {
       <Slider.Slide>
         <img src="/zuhe.svg" alt="any3" className="w-32" />
       </Slider.Slide>
-      {/* <Slider.Slide>
-        <img src="/laravelCameroon.svg" alt="any3" className="w-20" />
-      </Slider.Slide> */}
     </Slider>
   );
 }

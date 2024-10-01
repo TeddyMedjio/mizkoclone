@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import SliderFooter from "../components/SliderFooter";
 
 const Footer = () => {
   return (
-    <footer className="overflow-hidden bg-black ">
+    <footer className="overflow-hidden bg-black border-t border-[#222222] ">
+      <div className="py-2 ">
+        <SliderFooter />
+      </div>
       <div className="px-5 py-10 border-r border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
         <div className=" max-w-[465px] lg:max-w-96 mb-10 md:mb-0">
           <Link href="/" className="flex items-start">
@@ -51,14 +55,6 @@ const Footer = () => {
                   className="hover:text-white transition-all duration-300"
                 >
                   A propos
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blog"
-                  className="hover:text-white transition-all duration-300"
-                >
-                  Blog
                 </Link>
               </li>
               <li>

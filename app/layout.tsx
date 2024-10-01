@@ -48,7 +48,7 @@ export default function RootLayout({
       />
       <meta
         property="twitter:image"
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1715899357/qvdstxpszkesyfgwlaua.jpg"
+        content="https://res.cloudinary.com/dqp4tvy3d/image/upload/v1727740995/twitter_og_pa45gc.jpg"
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
@@ -59,9 +59,25 @@ export default function RootLayout({
       <meta name="twitter:author" content="@Nganmedjio_jean" />
       <meta name="twitter:site" content="@Nganmedjio_jean" />
 
-      <body className={`${GeistSans.className} antialiased flex`}>
+      <meta
+        property="og:title"
+        content="UX/UI designer & Frontend and i am accessible everywhere in
+        the world"
+      />
+      <meta
+        property="og:description"
+        content="UX/UI designer & Frontend and i am accessible everywhere in
+        the world"
+      />
+      <meta
+        property="og:image"
+        content="https://res.cloudinary.com/dqp4tvy3d/image/upload/v1727740995/linkedin_og_et2szl.jpg"
+      />
+      <meta property="og:url" content="https://www.medjio.me/" />
+
+      <body className={`${GeistSans.className} antialiased flex `}>
         <NavLeft />
-        <div className="w-full">
+        <div className="w-full overflow-x-hidden">
           <Navbar />
           {children}
           <Footer />
