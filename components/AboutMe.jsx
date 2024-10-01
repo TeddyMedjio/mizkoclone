@@ -12,7 +12,7 @@ const AboutMe = () => {
     <div className="px-0 md:px-5">
       <div
         // style={{ backgroundImage: "/background.webp" }}
-        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-10 md:pb-72 lg:pb-0"
+        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide  lg:pb-0"
       >
         <div className="fixed -z-50 h-full w-full">
           <Image
