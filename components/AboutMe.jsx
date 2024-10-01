@@ -12,7 +12,7 @@ const AboutMe = () => {
     <div className="px-0 md:px-5">
       <div
         // style={{ backgroundImage: "/background.webp" }}
-        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-44 md:pb-72 lg:pb-0"
+        className="relative flex flex-col-reverse items-center justify-center gap-5 lg:flex-row lg:items-start lg:justify-between  lg:border-x border-[#222222] 2xl:w-[70%] h-screen 2xl:mx-auto overflow-scroll scrollbar-hide pb-10 md:pb-72 lg:pb-0"
       >
         <div className="fixed -z-50 h-full w-full">
           <Image
@@ -125,7 +125,7 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-          <ul className="hidden md:flex my-5  items-center justify-between flex-wrap gap-4 max-w-[750px]">
+          <ul className="flex my-5  items-center justify-between flex-wrap gap-4 max-w-[750px]">
             <li className="flex items-center justify-between p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-[30%]">
               <Link
                 href="https://www.instagram.com/nganme_jean/"
