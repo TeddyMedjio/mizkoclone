@@ -24,7 +24,7 @@ const AboutMe = () => {
           />
         </div>
 
-        {/* playlists */}
+        {/* playlist */}
         <div className="hidden lg:block lg:sticky lg:top-10 lg:ml-5 p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full lg:w-[40%]">
           <h2 className="text-[19px] font-bold text-center mb-2">
             Ma Playlist.
