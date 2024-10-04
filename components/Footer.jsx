@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="py-2 ">
         <SliderFooter />
       </div>
-      <div className="px-5 py-10 border-r border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
+      <div className="px-5 py-10 border-x lg:border-x-0 lg:border-r border-[#222222] border-t 2xl:w-[100%] 2xl:mx-auto flex flex-col md:flex-row items-start md:justify-around">
         <div className=" max-w-[465px] lg:max-w-96 mb-10 md:mb-0">
           <Link href="/" className="flex items-start">
             <p className=" text-[21px] font-bold">N. Jean</p>

@@ -78,7 +78,7 @@ const AboutMe = () => {
               </div>
             </div>
             {/* Experiences */}
-            <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 mr-0 lg:mr-5 backdrop-blur-sm mt-5 md:mb-0 ">
+            <div className=" flex flex-col items-center gap-5 lg:px-0 bg-[#0a0a0ae1] border border-[#222222] max-w-[750px] p-5 lg:mr-5 backdrop-blur-sm mt-5">
               <h2 className="text-[16px] md:text-3xl font-medium text-center mt-8">
                 Experiences
               </h2>
@@ -126,7 +126,7 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            <ul className=" flex flex-col md:flex-row my-5 items-center justify-between flex-wrap gap-2 w-full px-8 md:px-0">
+            <ul className=" hidden md:flex flex-col md:flex-row my-5 items-center justify-between flex-wrap gap-2 w-full px-8 md:px-0 max-w-[750px]">
               <li className="flex items-center justify-between p-5 border bg-[#0a0a0ae1] backdrop-blur-sm border-[#222222] w-full md:w-[30%]">
                 <Link
                   href="https://www.instagram.com/nganme_jean/"
