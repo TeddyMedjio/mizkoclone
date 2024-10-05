@@ -83,7 +83,7 @@ const AboutMe = () => {
                 Experiences
               </h2>
               <div className="px-3 md:px-10 w-full">
-                <div className="flex items-center justify-between w-full">
+                <div className="flex items-start justify-between w-full">
                   <p className="flex flex-col text-base md:text-[19px]">
                     Konrad Technologies{" "}
                     <span className="text-grey text-sm md:block">
@@ -93,7 +93,7 @@ const AboutMe = () => {
                   <p className="text-grey text-sm">Mar.2016 - Oct.2018</p>
                 </div>
                 <div className="bg-[#222222] w-full h-[1px] my-5" />
-                <div className="flex items-center justify-between w-full">
+                <div className="flex items-start justify-between w-full">
                   <p className="flex flex-col text-base md:text-[19px]">
                     InterSystems{" "}
                     <span className="text-grey text-sm md:block">
@@ -103,7 +103,7 @@ const AboutMe = () => {
                   <p className="text-grey text-sm">Jui.2018 - Sep.2019</p>
                 </div>
                 <div className="bg-[#222222] w-full h-[1px] my-5" />
-                <div className="flex items-center justify-between w-full">
+                <div className="flex items-start justify-between w-full">
                   <p className="flex flex-col text-base md:text-[19px]">
                     Wise Computers
                     <span className="text-grey text-sm md:block">
@@ -113,7 +113,7 @@ const AboutMe = () => {
                   <p className="text-grey text-sm">Jui.2019 - Nov.2022</p>
                 </div>
                 <div className="bg-[#222222] w-full h-[1px] my-5" />
-                <div className="flex items-center justify-between w-full">
+                <div className="flex items-start justify-between w-full">
                   <p className="flex flex-col text-base md:text-[19px]">
                     Freelancer
                     <span className="text-grey text-sm md:block ">
