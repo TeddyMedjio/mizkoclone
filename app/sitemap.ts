@@ -1,16 +1,27 @@
-export default function sitemap() {
+import { MetadataRoute } from "next";
+import { work } from "../constants";
+
+export default async function sitemap() {
+  const baseUrl = "https://medjio.me";
+  const projets = work.map((projet) => {
+    return {
+      url: `${baseUrl}/projets/${projet.slug}`,
+      lastModified: new Date(),
+    };
+  });
   return [
     {
-      url: "https://acme.com/about",
+      url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 1,
     },
     {
-      url: "https://acme.com/projets",
+      url: `${baseUrl}/about`,
       lastModified: new Date(),
-      changeFrequency: "montly",
-      priority: 0.8,
     },
+    {
+      url: `${baseUrl}/projets`,
+      lastModified: new Date(),
+    },
+    ...projets,
   ];
 }

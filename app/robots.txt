@@ -1,3 +1,0 @@
-User-agent: ia_archiver
-
-Sitemap: https://medjio.me/sitemap.xml

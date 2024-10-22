@@ -41,7 +41,7 @@ export const SKILL = [
   },
 ];
 
-// competences
+// Projets
 export const work = [
   {
     id: 1,

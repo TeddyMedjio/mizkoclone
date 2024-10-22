@@ -3,10 +3,37 @@ import { work } from "../../../constants";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  try {
+    const projects = work.find((x) => x.slug === params.slug);
+    if (!projects) {
+      return {
+        title: "Non trouvé",
+        description: "La page que vous recherchez n'existe pas",
+      };
+    }
+    return {
+      title: projects.title,
+      description: projects.description,
+      image: projects.image,
+    };
+  } catch (error) {
+    console.error(error);
+    return {
+      title: "Non trouvé",
+      description: "La page que vous recherchez n'existe pas",
+    };
+  }
+}
+
 export default async function page({ params }: { params: { slug: string } }) {
   const projects = work.find((x) => x.slug === params.slug);
   if (!projects) {
-    return <p>Projet Not Found</p>;
+    return <p>Projet Non trouvé</p>;
   }
   return (
     <div className="px-0 md:px-5 ">

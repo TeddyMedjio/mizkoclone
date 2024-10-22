@@ -3,15 +3,29 @@ import "../styles/globals.css";
 import NavLeft from "../components/NavLeft";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://medjio.me"),
+  keywords: [
+    "cameroun frontend dev, frontend developpeur",
+    "cameroun graphic designer",
+    "frontend dev",
+    "Nextjs",
+    "Reactjs",
+    "web developer",
+    "developpeur web",
+    "photoshop, flyers, site internet, site ecommerce",
+    "freelance",
+  ],
   title: {
     default: "UX/UI designer & Frontend dev",
     template: "%s | N. Jean Claude",
   },
-
-  description:
-    "Hello there, I'm N. Jean Claude! I went from designer → agency owner → Passionate about the Web and graphic design,I like to collaborate with people who attach importance to aesthetics, who understand the power of simplicity and who know that a good customer experience is essential.",
+  openGraph: {
+    description:
+      "Bonjour, je m'appelle N. Jean Claude ! Je suis passé de designer → Passionné par le Web et le graphisme, j'aime collaborer avec des gens qui attachent de l'importance à l'esthétique, qui comprennent le pouvoir de la simplicité et qui savent qu'une bonne expérience client est essentielle.",
+  },
 };
 
 export default function RootLayout({
@@ -20,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <meta name="author" content="Nganmedjio Jean Claude" />
       {/* <!-- HTML Meta Tags --> */}
       <title>
