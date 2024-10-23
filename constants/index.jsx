@@ -45,13 +45,31 @@ export const SKILL = [
 export const work = [
   {
     id: 1,
+    slug: "cmgtrans-fogo",
+    title: "CMG Trans-fogo",
+    description: "Website de transite des clis du Canada vers monde.",
+    duree: "3 semaines",
+    lienExterne: "https://www.cmgtrans-fogo.ca/",
+    service: "SEO, Design et Developpement",
+    image: "/cmgtransfogo.jpg",
+    tools: "Figma & Nextjs",
+
+    Challenge:
+      "Le client à cause d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque avait besoin d'un site plus moderne qui reflète la qualité des services qu'il propose.",
+    Objectif:
+      "Mon objectif était de créer un website moderne et visuellement attrayant qui reflète la marque du client et offre une expérience utilisateur fluide pour que le site Web soit réactif, facile à naviguer et optimisé pour les moteurs de recherche afin d'améliorer leur visibilité en ligne.",
+    Resultat:
+      "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
+  },
+  {
+    id: 2,
     slug: "eshop",
     title: "E.Shop",
     description:
       "Website Ecommerce avec un design visuellement attrayant et moderne",
-    duree: "3 semaines",
+    duree: "3.5 semaines",
     lienExterne: "https://eshop-taupe-eta.vercel.app/",
-    service: "Design et Developpement",
+    service: "Design & Developpement",
     image: "/eshop.jpg",
     tools: "Figma, Photoshop & Nextjs",
 
@@ -63,7 +81,7 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 2,
+    id: 3,
     slug: "zelook-shop",
     title: "Zeelook Shop",
     description:
@@ -71,7 +89,7 @@ export const work = [
     duree: "2 semaines",
     lienExterne:
       "https://www.behance.net/gallery/191340375/zeelook-webdesign-for-ecommerce-glasses",
-    service: "Conception & Design",
+    service: "UX Research & Design",
     image: "/zeelook.jpg",
     tools: "Figma & Photoshop",
     Challenge:
@@ -82,14 +100,14 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 3,
+    id: 4,
     slug: "notaire-riegelova",
     title: "Notaire Riegelova",
     description:
       "Site Web moderne et visuellement attrayant qui reflète la marque du client.",
     duree: "2 semaines",
     lienExterne: "https://notary-virid.vercel.app/",
-    service: "Conception, Design et Developpement",
+    service: "Conception, Design & Developpement",
     image: "/notaire.jpg",
     tools: "Figma, Nextjs & Framer",
     Challenge:
@@ -100,14 +118,14 @@ export const work = [
       "J'ai mis en place une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web de ma cliente présente désormais ses services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Ma cliente est ravie du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 4,
+    id: 5,
     slug: "travel-theta",
     title: "Putuk Truno",
     description:
       "Site Web moderne et visuellement attrayant qui reflète la marque du client.",
     duree: "3 semaines",
     lienExterne: "https://travel-theta-three.vercel.app/",
-    service: "SEO et Developpement Web",
+    service: "SEO & Developpement Web",
     image: "/travel.jpg",
     tools: "Nextjs & Tailwindcss",
     Challenge:

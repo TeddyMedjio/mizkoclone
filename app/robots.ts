@@ -11,7 +11,3 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
-
-// User-agent: ia_archiver
-
-// Sitemap: https://medjio.me/sitemap.xml

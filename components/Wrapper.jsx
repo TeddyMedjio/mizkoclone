@@ -11,7 +11,7 @@ const Wrapper = () => {
           <h1 className="pt-16 lg:pt-0 text-[32px] md:text-[76px] font-bold leading-[40px] md:leading-[80px] ">
             Designer Freelance & <Cover>Frontend dev</Cover>
           </h1>
-          <p className=" font-normal text-base md:text-lg text-grey leading-[26px] md:line-clamp-none">
+          <p className=" font-normal text-base md:text-2xl text-grey leading-[26px] md:line-clamp-none md:w-[600px]">
             Un site web complet du concept à la réalisation, c&apos;est ce qui
             me distingue. Mon grand sens du design et mes compétences en
             développement me permettent de créer des projets passionnants.

@@ -53,8 +53,8 @@ export default function ProjetsAcceuil() {
                   <Image
                     src={item.image}
                     fill={true}
-                    sizes="300px"
                     alt={`image ${item.slug}`}
+                    quality={100}
                     className="absolute object-cover duration-300 md:group-hover:scale-110"
                   />
                 </div>

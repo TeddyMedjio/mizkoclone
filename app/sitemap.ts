@@ -1,4 +1,3 @@
-import { MetadataRoute } from "next";
 import { work } from "../constants";
 
 export default async function sitemap() {

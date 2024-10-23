@@ -49,7 +49,6 @@ const page = () => {
                   <Image
                     src={item.image}
                     fill={true}
-                    sizes="300px"
                     alt={`image ${item.slug}`}
                     className="absolute object-cover duration-300 md:group-hover:scale-110"
                   />
