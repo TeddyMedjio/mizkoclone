@@ -5,7 +5,7 @@ import { Cover } from "./ui/cover";
 const Wrapper = () => {
   return (
     <div className="px-0 md:px-5">
-      <div className=" border-x border-[#222222] border-b lg:h-screen lg:flex items-center justify-center w-full 2xl:h-[766px] 2xl:w-[70%] 2xl:mx-auto ">
+      <div className=" border-x border-[#222222] border-b lg:h-screen lg:flex items-center justify-center w-full 2xl:h-[766px] 2xl:w-[70%] 2xl:mx-auto">
         {/* text left */}
         <div className="px-5 md:px-9 md:py-20 lg:py-0 w-full lg:w-1/2 space-y-5 lg:space-y-10">
           <h1 className="pt-16 lg:pt-0 text-[32px] md:text-[76px] font-bold leading-[40px] md:leading-[80px] ">
@@ -23,16 +23,16 @@ const Wrapper = () => {
             >
               Me contacter
             </Link>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 pb-9 md:pb-0">
               <span className=" animate-pulse h-[15px] w-[15px] bg-green-600 border-2 border-green-950 rounded-full"></span>
-              <p className=" text-sm text-grey">
+              <p className=" text-sm text-grey ">
                 Disponible pour des opportunités et contrats.
               </p>
             </div>
           </div>
         </div>
 
-        <div className=" my-20 lg:my-0 relative h-[300px] lg:h-full lg:w-1/2">
+        <div className=" hidden lg:block my-20 lg:my-0 relative h-[300px] lg:h-full lg:w-1/2">
           <div className=" absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image src="logo.svg" height={220} width={220} alt="logo" />
           </div>

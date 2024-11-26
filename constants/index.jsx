@@ -63,6 +63,25 @@ export const work = [
   },
   {
     id: 2,
+    slug: "apple_shop",
+    title: "Apple.Shop",
+    description:
+      "Website Ecommerce avec un design visuellement attrayant et moderne",
+    duree: "3.5 semaines",
+    lienExterne: "https://e-apple.vercel.app/",
+    service: "Design & Developpement",
+    image: "/appleshop.jpg",
+    tools: "Figma, Photoshop & Nextjs",
+
+    Challenge:
+      "Notre client avait du mal à attirer et à fidéliser ses clients en raison d'un site Web obsolète et non réactif qui ne correspondait pas à son identité de marque.",
+    Objectif:
+      "Mon objectif était de créer un Webdesign moderne et visuellement attrayant qui reflète la marque du client et offre une expérience utilisateur fluide pour que le site Web soit réactif, facile à naviguer et optimisé pour les moteurs de recherche afin d'améliorer leur visibilité en ligne.",
+    Resultat:
+      "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
+  },
+  {
+    id: 3,
     slug: "eshop",
     title: "E.Shop",
     description:
@@ -81,7 +100,7 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 3,
+    id: 4,
     slug: "zelook-shop",
     title: "Zeelook Shop",
     description:
@@ -100,7 +119,7 @@ export const work = [
       "J'ai développé une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web du client présente désormais ses produits et services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Le client est ravi du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 4,
+    id: 5,
     slug: "notaire-riegelova",
     title: "Notaire Riegelova",
     description:
@@ -118,7 +137,7 @@ export const work = [
       "J'ai mis en place une conception de site Web personnalisée qui était non seulement visuellement époustouflante, mais également conviviale et optimisée pour les moteurs de recherche. Le site Web de ma cliente présente désormais ses services de manière professionnelle et attrayante, et a connu une augmentation significative du trafic organique et de l'engagement des clients. Ma cliente est ravie du résultat final et a reçu des retours positifs de ses clients.",
   },
   {
-    id: 5,
+    id: 6,
     slug: "travel-theta",
     title: "Putuk Truno",
     description:
