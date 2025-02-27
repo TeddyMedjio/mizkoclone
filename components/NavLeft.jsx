@@ -11,14 +11,14 @@ const NavLeft = () => {
               <Image src="/logo.svg" height={24} width={24} alt="logo" />
             </Link>
           </li>
-          <li className="px-[11px] py-[13px] rounded border border-[#222222] hover:bg-Lightgrey transition-all duration-300">
+          {/* <li className="px-[11px] py-[13px] rounded border border-[#222222] hover:bg-Lightgrey transition-all duration-300">
             <Link
               href="https://scarfacedigitalagency.vercel.app/"
               target="blank"
             >
               <Image src="/logocolor.svg" height={24} width={24} alt="logo" />
             </Link>
-          </li>
+          </li> */}
         </ul>
         <p className="rotation text-xs whitespace-nowrap tracking-[4px] text-grey">
           LETS GO — {new Date().getFullYear()}
