@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Cover } from "./ui/cover";
 
 const Wrapper = () => {
   return (
@@ -9,7 +8,7 @@ const Wrapper = () => {
         {/* text left */}
         <div className="px-5 md:px-9 md:py-20 lg:py-0 w-full lg:w-1/2 space-y-5 lg:space-y-10">
           <h1 className="pt-16 lg:pt-0 text-[32px] md:text-[76px] font-bold leading-[40px] md:leading-[80px] ">
-            Designer Freelance & <Cover>Frontend dev</Cover>
+            Designer & Frontend dev
           </h1>
           <p className=" font-normal text-base md:text-2xl text-grey leading-[26px] md:line-clamp-none md:w-[600px]">
             Un site web complet du concept à la réalisation, c&apos;est ce qui
@@ -33,11 +32,20 @@ const Wrapper = () => {
         </div>
 
         <div className=" hidden lg:block my-20 lg:my-0 relative h-[300px] lg:h-full lg:w-1/2">
-          <div className=" absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          {/* <div className=" absolute z-[2] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <Image src="logo.svg" height={220} width={220} alt="logo" />
+          </div> */}
+          <span className=" absolute bg-black opacity-30 h-full w-full "></span>
+          <div className="relative h-full w-full overflow-hidden">
+            <Image
+              src="pattern.svg"
+              fill={true}
+              alt="logo pattern"
+              draggable={false}
+              className="object-cover h-full w-full animate-[pulse_4s_ease-in-out_infinite]"
+            />
           </div>
-          <span className=" absolute bg-black opacity-50 h-full w-full "></span>
-          <video
+          {/* <video
             className=" object-cover h-full w-full overflow-hidden "
             autoPlay
             loop
@@ -53,7 +61,7 @@ const Wrapper = () => {
               src="https://res.cloudinary.com/dqfd5g2fd/video/upload/v1715850372/uwiyceydmijerhgtrxjw.webm"
               type="video/webm"
             />
-          </video>
+          </video> */}
         </div>
       </div>
     </div>
