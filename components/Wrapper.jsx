@@ -17,7 +17,7 @@ const Wrapper = () => {
           </p>
           <div className="flex flex-col items-center space-y-5 md:space-y-0 md:justify-start justify-center md:flex-row md:space-x-5 ">
             <Link
-              href="mailto:hello.medjio.me"
+              href="mailto:hello@medjio.me"
               className="text-sm font-medium py-[10px] text-center w-full md:w-auto md:px-4 bg-white text-black rounded-lg hover:bg-slate-100"
             >
               Me contacter

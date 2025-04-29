@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="hidden space-x-3 lg:flex items-center">
           <Alert />
           <Link
-            href="mailto:hello.medjio.me"
+            href="mailto:hello@medjio.me"
             className="text-sm font-medium py-[10px] px-4 bg-white text-black rounded-lg"
           >
             Me contacter
