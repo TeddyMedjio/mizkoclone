@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="text-sm text-grey my-5">
             Je suis UX/UI designer & Frontend dev et je suis accessible partout
             dans le monde pour collaborer avec des personnes qui attachent de
-            l&apos;importance à l&apos;esthétique.
+            l&apos;importance à l&apos;esthétique .
           </p>
           <p className="text-sm text-grey">
             © 2024 - 2025 N. Jean, All rights reserved.
