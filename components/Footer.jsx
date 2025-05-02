@@ -22,7 +22,7 @@ const Footer = () => {
             l&apos;importance à l&apos;esthétique.
           </p>
           <p className="text-sm text-grey">
-            © 2024 - 2025 N. Jean, All rights reserved.
+            © 2024 - 2025 N. Jean, All rights reserved .
           </p>
         </div>
 
