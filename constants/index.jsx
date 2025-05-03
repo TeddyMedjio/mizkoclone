@@ -35,7 +35,7 @@ export const SKILL = [
   {
     key: "development ",
     title: "Développement ",
-    year: "04 Ans",
+    year: "02 Ans",
     description:
       "Je crée des sites Web évolutifs à partir de zéro qui s'intègrent parfaitement au design. Je me concentre sur les micro-animations, les transitions et l'interaction.",
   },
