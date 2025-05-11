@@ -55,7 +55,7 @@ export default function MyModal() {
                     <XMarkIcon className="size-6 text-white" />
                   </span>
                   <p className="text-black text-2xl uppercase">
-                    Besoin d'un UX/UI Designer ?
+                    Besoin d&lsquo;un UX/UI Designer ?
                   </p>
                   <Link
                     href="https://www.medjio.me"
