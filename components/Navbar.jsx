@@ -9,7 +9,7 @@ import { NAV_LINKS } from "../constants";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-[1000]">
+    <nav className=" sticky top-0 w-full border-b border-[#222222] bg-black z-50">
       <div className="px-5 py-5 flex items-center justify-between lg:justify-around ">
         <Link href="/" className="flex items-start">
           <p className=" text-[28px] md:text-[21px] font-bold">N. Jean</p>
