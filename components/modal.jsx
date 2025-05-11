@@ -58,7 +58,7 @@ export default function MyModal() {
                     Besoin d&lsquo;un UX/UI Designer ?
                   </p>
                   <Link
-                    href="https://www.medjio.me"
+                    href="https://ux.medjio.me"
                     target="_blank"
                     className="font-[family-name:var(--satoshibold-)] bg-black text-white px-10 py-4"
                   >
