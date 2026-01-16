@@ -6,10 +6,11 @@ import Link from "next/link";
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   try {
-    const projects = work.find((x) => x.slug === params.slug);
+    const { slug } = await params;
+    const projects = work.find((x) => x.slug === slug);
     if (!projects) {
       return {
         title: "Non trouvé",
@@ -30,8 +31,9 @@ export async function generateMetadata({
   }
 }
 
-export default async function page({ params }: { params: { slug: string } }) {
-  const projects = work.find((x) => x.slug === params.slug);
+export default async function page({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const projects = work.find((x) => x.slug === slug);
   if (!projects) {
     return <p>Projet Non trouvé</p>;
   }
