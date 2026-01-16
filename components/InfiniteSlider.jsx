@@ -10,7 +10,7 @@ export default function InfiniteSlider() {
       duration={20}
       pauseOnHover={false}
       blurBorders={true}
-      blurBoderColor={"#000"}
+      blurBorderColor={"#000000"}
     >
       <Slider.Slide>
         <img src="/challenge.svg" alt="any" className="w-32" />

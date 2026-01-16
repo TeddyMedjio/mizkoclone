@@ -10,7 +10,7 @@ export default function SliderFooter() {
       duration={20}
       pauseOnHover={false}
       blurBorders={true}
-      blurBoderColor={"#000"}
+      blurBorderColor={"#000"}
     >
       <Slider.Slide>
         <div className="flex items-center justify-around w-full">
